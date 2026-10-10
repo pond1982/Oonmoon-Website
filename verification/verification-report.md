@@ -1,18 +1,18 @@
 # Oonmoon website verification
 
-Prepared 10 October 2026. Local only; no remote repository, deployment, purchase, App Store Connect change, credential creation or app-source edit.
+Prepared 10 October 2026. This website task performed no remote repository creation, push, deployment, purchase, App Store Connect change, credential creation or app-source edit.
 
 ## Deliverable
 
-Canonical website folder: `/Users/ponddmini/Desktop/Oonmoon-Website`.
+Website container: `/Users/ponddmini/Desktop/Oonmoon-Website`. The current user-created checkout and site root are nested at `/Users/ponddmini/Desktop/Oonmoon-Website/Oonmoon-Website`; its Git history and existing origin are preserved. No remote creation, push or publication was performed by this task.
 
-Eleven static HTML URLs: neutral entry, plus Home, Features, Stories, Support and Privacy in both `/en/` and `/th/`. The app repository is separate and remained clean on `main`, revision `59cdeb720555f65acb6b98428f14c186015e74b7`, version 0.7.8 (36).
+Eleven static HTML URLs: neutral entry, plus Home, Features, Stories, Support and Privacy in both `/en/` and `/th/`. The app repository is separate. The original website asset baseline was verified on clean `main`, revision `59cdeb720555f65acb6b98428f14c186015e74b7`, version 0.7.8 (36).
 
 Every localized page exposes its main content without JavaScript. Browser preference chooses the suggested language at the neutral entry; English is the fallback. An explicit choice is remembered in localStorage, and direct locale URLs never redirect. This avoids hiding localized content from crawlers.
 
 ## Completed checks
 
-- Headless Chrome/Playwright: **41 checks passed, zero browser errors**. See `browser-checks.json` for details.
+- Headless Chrome/Playwright: **46 checks passed, zero browser errors**. See `browser-checks.json` for details.
 - All eleven pages: unique localized title/description, correct document language, one primary heading, main landmark, image alt attributes, working internal navigation and static English/Thai switch.
 - All eleven pages at 320×568, 390×844, 768×1024, 1024×768 and 1440×900: **no horizontal overflow**.
 - Thai/English browser preference, unsupported-language English fallback, remembered manual English override over Thai browser preference, same-page language switching, direct Thai URLs despite stored English, blocked storage and JavaScript disabled: passed. Independent JavaScriptCore checks also cover empty/ordered browser preferences and corrupt storage.
@@ -41,6 +41,8 @@ Local implementation is complete. These are publication prerequisites and scope 
 
 ## Approved rounded-corner refinement
 
-10 October 2026 (Asia/Bangkok): applied subtle rounded clipping to every foreground native screenshot on the website, and to the screenshot layers in the English/Thai social metadata composites. CSS radius adapts from 4 to 10 pixels; shadows, layout and proportions are retained, with no border. The native source captures, website JPEG variants, forest and character cutouts remain byte-for-byte unchanged. Revised marketing panel/overview exports are not required or copied: the website displays the still-valid native capture inputs directly.
+10 October 2026 (Asia/Bangkok): applied subtle rounded clipping to every foreground native screenshot on the website, and to the screenshot layers in the English/Thai social metadata composites. CSS radius adapts from 4 to 10 pixels; shadows, layout and proportions are retained, with no border. Five added browser checks verify all nine foreground placements across the five tested viewport sizes. Fresh desktop, mobile, tablet and both social images passed independent visual review; see `rounded-corners-audit.md`. Independent social-mask checks confirm only 92 extreme corner pixels acquire alpha; no source color pixels are altered outside those corner regions. The native source captures, website JPEG variants, forest and character cutouts remain byte-for-byte unchanged; all 32 original asset hashes still match the pre-refinement baseline. Revised marketing panel/overview exports are not required or copied: the website displays the still-valid native capture inputs directly.
 
 Updated desktop/mobile/tablet previews and source ZIP replace the original Library files while preserving their identities. No publication or indexing change.
+
+The app worker is separately updating navigation and language controls. Reconfirm final app claims and screenshot freshness against its next verified handoff before publication. Current website copy makes general feature claims and does not expose developer-only test access.

@@ -1,6 +1,6 @@
 {
-  "started": "2026-10-10T05:46:07.623Z",
-  "base": "http://127.0.0.1:8765/site-stage/",
+  "started": "2026-10-10T06:00:15.126Z",
+  "base": "http://127.0.0.1:8081/",
   "checks": [
     {
       "name": "Static page /",
@@ -29,7 +29,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -67,7 +67,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -105,7 +105,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -143,7 +143,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -181,7 +181,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -219,7 +219,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -257,7 +257,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -295,7 +295,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -333,7 +333,7 @@
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -367,11 +367,11 @@
             "url": "https://example.invalid/oonmoon/en/privacy/"
           }
         ],
-        "mainText": 4012,
+        "mainText": 4109,
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -405,11 +405,11 @@
             "url": "https://example.invalid/oonmoon/en/privacy/"
           }
         ],
-        "mainText": 3915,
+        "mainText": 4050,
         "missingAlt": 0,
         "broken": [],
         "scripts": [
-          "http://127.0.0.1:8765/site-stage/assets/site.js"
+          "http://127.0.0.1:8081/assets/site.js"
         ],
         "bodyWidth": 1440,
         "viewport": 1440
@@ -426,9 +426,19 @@
       "detail": "11 routes: no horizontal overflow"
     },
     {
+      "name": "Rounded screenshots 320×568",
+      "status": "PASS",
+      "detail": "nine foreground placements: radius 4–10px, zero border, original soft shadow and landscape proportion"
+    },
+    {
       "name": "Responsive 390×844",
       "status": "PASS",
       "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Rounded screenshots 390×844",
+      "status": "PASS",
+      "detail": "nine foreground placements: radius 4–10px, zero border, original soft shadow and landscape proportion"
     },
     {
       "name": "Responsive 768×1024",
@@ -436,14 +446,29 @@
       "detail": "11 routes: no horizontal overflow"
     },
     {
+      "name": "Rounded screenshots 768×1024",
+      "status": "PASS",
+      "detail": "nine foreground placements: radius 4–10px, zero border, original soft shadow and landscape proportion"
+    },
+    {
       "name": "Responsive 1024×768",
       "status": "PASS",
       "detail": "11 routes: no horizontal overflow"
     },
     {
+      "name": "Rounded screenshots 1024×768",
+      "status": "PASS",
+      "detail": "nine foreground placements: radius 4–10px, zero border, original soft shadow and landscape proportion"
+    },
+    {
       "name": "Responsive 1440×900",
       "status": "PASS",
       "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Rounded screenshots 1440×900",
+      "status": "PASS",
+      "detail": "nine foreground placements: radius 4–10px, zero border, original soft shadow and landscape proportion"
     },
     {
       "name": "Thai first visit",
@@ -538,5 +563,5 @@
     }
   ],
   "errors": [],
-  "finished": "2026-10-10T05:46:54.450Z"
+  "finished": "2026-10-10T06:01:00.652Z"
 }

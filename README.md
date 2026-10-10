@@ -1,13 +1,13 @@
 # Oonmoon Website
 
-Standalone English and Thai static website, separate from the Oonmoon app. Prepared locally on 10 October 2026. Nothing has been published, and no remote repository has been created.
+Standalone English and Thai static website, separate from the Oonmoon app. Prepared locally on 10 October 2026. This task performed no publication or remote repository creation. The user-created nested checkout and its existing remote are preserved.
 
 ## Preview
 
 Open `index.html` directly, or serve the project locally:
 
 ```sh
-cd /Users/ponddmini/Desktop/Oonmoon-Website
+cd /Users/ponddmini/Desktop/Oonmoon-Website/Oonmoon-Website
 python3 -m http.server 8080 --bind 127.0.0.1
 ```
 
@@ -37,9 +37,9 @@ The privacy draft still needs owner/content approval: legal operator, effective 
 ## Publish later with GitHub Pages
 
 1. Review the privacy/content decisions above and supply a real App Store listing only when one exists. The current site uses plain Coming soon text, without a fabricated badge, price or listing link.
-2. Create the desired GitHub repository yourself. Keep this website separate from the app repository. The local project has a `main` branch and no remote.
+2. Use the user-created nested checkout and confirm its existing remote points to the intended website repository. Keep this website separate from the app repository. This task preserves `main` and the existing remote without remote operations.
 3. Configure the actual URL and rebuild as above. Confirm `site.config.json`, every canonical/hreflang URL and `sitemap.xml` use that real address; check the site at a project subpath.
-4. Add the remote you chose, then push `main` using your own GitHub authentication. No credentials are included or created by this project.
+4. After reviewing the configured site, push `main` to the confirmed existing remote using your own GitHub authentication. No credentials are included or created by this project.
 5. In GitHub repository Settings → Pages, choose Deploy from a branch, `main`, and `/ (root)`. The `.nojekyll` file makes the site serve as plain static files. Keep the project root contents at the repository root.
 6. When GitHub reports the published address, verify both languages, images, support email and privacy URL at that address. This site work does not update the app or App Store Connect.
 7. Submit the real sitemap in Google Search Console if desired. A project site's `/YOUR-REPO/robots.txt` does **not** govern crawling: Google reads `robots.txt` only at the host root. To control robots for a `github.io` project site, manage the user site/host root or use a custom domain. The included file is effective only if served at the host root.
