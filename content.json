@@ -1,0 +1,232 @@
+{
+  "en": {
+    "name": "Oonmoon",
+    "tagline": "Little stories. Big wonder.",
+    "status": "Coming soon",
+    "skip": "Skip to content",
+    "nav": [
+      "Home",
+      "Features",
+      "Stories",
+      "Support",
+      "Privacy"
+    ],
+    "titles": [
+      "Oonmoon — Little stories. Big wonder.",
+      "Features — Oonmoon",
+      "Ten classic stories — Oonmoon",
+      "Support — Oonmoon",
+      "Privacy draft — Oonmoon"
+    ],
+    "descriptions": [
+      "Read, listen and explore ten classic stories with Oonmoon. Thai and English recorded narration, character choices and little moments of discovery. Coming soon.",
+      "Explore Oonmoon’s Thai and English narration, character selection, tap interactions and automatic page turning.",
+      "Meet Oonmoon’s ten classic stories. Three are included; a one-time full-library unlock covers the other seven and future completed books added to Oonmoon.",
+      "Help with Oonmoon storytime, narration, language, library access and local choices. Contact pondd.me@gmail.com.",
+      "Review Oonmoon’s app privacy practices and separate website hosting notes. This policy draft requires owner approval before publication."
+    ],
+    "eyebrow": "A little adventure, together",
+    "hero": [
+      "Little stories.",
+      "Big wonder."
+    ],
+    "intro": "Step into a paper-cut world of familiar tales. Read together, listen in Thai or English, and discover the little things along the way.",
+    "explore": "Meet the stories",
+    "featuresLink": "Explore the features",
+    "screenCaption": "A real Oonmoon story view • landscape simulator capture",
+    "readerAlt": "Oonmoon’s English Little Red Riding Hood reader, showing the forest path, characters, narration caption and reading controls",
+    "campTitle": "Everyone’s here for storytime.",
+    "campText": "Ten familiar tales. One moonlit gathering.",
+    "campAlt": "A character from",
+    "shelfAlt": "Oonmoon’s landscape bookshelf with all ten classic story covers",
+    "dressingAlt": "Oonmoon’s landscape character selection screen with appearance and skin tone options",
+    "featureHeading": "Make room for a little wonder.",
+    "featureIntro": "A storybook made for reading, listening and exploring together.",
+    "featureCards": [
+      [
+        "Two languages, one adventure",
+        "Listen to recorded Thai or English narration and read along with the story text."
+      ],
+      [
+        "A character of their own",
+        "Choose a character and make its appearance your own."
+      ],
+      [
+        "Little things to discover",
+        "Tap the illustrated scene to explore its interactions."
+      ],
+      [
+        "Let the story turn the page",
+        "Optional automatic page turning opens the next page after narration finishes successfully. You can also turn pages yourself."
+      ],
+      [
+        "Stories ready to listen to",
+        "Artwork, story text and recorded narration are bundled with the app."
+      ],
+      [
+        "A shelf that can grow",
+        "The first three stories are included. A one-time full-library unlock covers the other seven and future completed books added to Oonmoon. No subscription."
+      ]
+    ],
+    "duoHeading": "Designed with iPhone Duo in mind",
+    "duoText": "Oonmoon 0.7.8 includes improvements for window size, safe areas and display divisions, with selected simulator checks completed. Fold transitions, Split View and physical iPhone Duo remain unverified. Hardware is not yet released at this review date (10 October 2026).",
+    "libraryHeading": "Ten tales. So many little adventures.",
+    "libraryIntro": "From a winding forest path to a very determined little hen, familiar characters are waiting on the shelf.",
+    "included": "Included",
+    "fullLibrary": "Full library",
+    "libraryNote": "Little Red Riding Hood, The Tortoise and the Hare, and The Three Little Pigs are included. A one-time full-library unlock covers the other seven and future completed books added to Oonmoon. No subscription. Oonmoon is coming soon.",
+    "storyTitles": [
+      "Little Red Riding Hood",
+      "The Tortoise and the Hare",
+      "The Three Little Pigs",
+      "The Ugly Duckling",
+      "Goldilocks and the Three Bears",
+      "The Lion and the Mouse",
+      "The Little Red Hen",
+      "The Three Billy Goats Gruff",
+      "The Elves and the Shoemaker",
+      "The Gingerbread Man"
+    ],
+    "storyNotes": [
+      "A basket, a forest path and a visit to Grandma.",
+      "A race between two very different friends.",
+      "Three little builders, three houses and a blustery visitor.",
+      "A little duckling discovers friendship, family and who they are.",
+      "A woodland cottage and three unexpected hosts.",
+      "Even a little friend can lend a big helping hand.",
+      "Follow a busy hen from grain to bread.",
+      "Three goats set out to cross a tricky bridge.",
+      "A shoemaker discovers some very small helpers.",
+      "A freshly baked little runner takes off on an adventure."
+    ],
+    "supportHeading": "A little help for storytime.",
+    "supportIntro": "For app support and privacy questions, a grown-up can reach us at",
+    "emailLabel": "Email Oonmoon support",
+    "emailNote": "Please avoid including a child’s name, photo or other unnecessary personal details. Include the app version, device and a brief description of the issue.",
+    "privacyHeading": "Privacy, explained plainly.",
+    "privacyIntro": "App practices and website practices are described separately below.",
+    "draft": "Draft for owner review",
+    "draftText": "This local preview is not an approved final privacy policy. The legal operator, effective date, intended markets, rights procedures, support handling and hosting details still need owner confirmation. Both English and Thai wording require approval before publication.",
+    "footer": "Made for moments together.",
+    "footerStatus": "Oonmoon is coming soon.",
+    "credits": "iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Apple product names are used to describe design intent; no endorsement is implied.",
+    "seeScreen": "Open the full landscape screenshot",
+    "previewNotice": "Local preview • not published",
+    "backHome": "Back to storytime"
+  },
+  "th": {
+    "name": "Oonmoon",
+    "tagline": "นิทานเล็ก ๆ กับความมหัศจรรย์ที่ยิ่งใหญ่",
+    "status": "เร็ว ๆ นี้",
+    "skip": "ข้ามไปยังเนื้อหา",
+    "nav": [
+      "หน้าแรก",
+      "ฟีเจอร์",
+      "คลังนิทาน",
+      "ช่วยเหลือ",
+      "ความเป็นส่วนตัว"
+    ],
+    "titles": [
+      "Oonmoon — นิทานเล็ก ๆ กับความมหัศจรรย์ที่ยิ่งใหญ่",
+      "ฟีเจอร์ — Oonmoon",
+      "นิทานคลาสสิก 10 เรื่อง — Oonmoon",
+      "ช่วยเหลือ — Oonmoon",
+      "ร่างนโยบายความเป็นส่วนตัว — Oonmoon"
+    ],
+    "descriptions": [
+      "อ่าน ฟัง และสำรวจนิทานคลาสสิก 10 เรื่องกับ Oonmoon พร้อมเสียงบรรยายภาษาไทยและภาษาอังกฤษที่บันทึกไว้ เลือกตัวละครและค้นพบสิ่งเล็ก ๆ ในภาพ พบกันเร็ว ๆ นี้",
+      "รู้จักฟีเจอร์ของ Oonmoon ทั้งเสียงบรรยายภาษาไทยและภาษาอังกฤษ การเลือกตัวละคร การแตะโต้ตอบกับภาพ และการเปลี่ยนหน้าอัตโนมัติ",
+      "พบกับนิทานคลาสสิก 10 เรื่องใน Oonmoon รวมสามเรื่องแรกไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่องและนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต",
+      "ความช่วยเหลือเกี่ยวกับการอ่านนิทาน เสียงบรรยาย ภาษา สิทธิ์อ่าน และตัวเลือกที่บันทึกไว้ในอุปกรณ์ ติดต่อ pondd.me@gmail.com",
+      "อ่านข้อมูลความเป็นส่วนตัวของแอป Oonmoon และข้อมูลการโฮสต์เว็บไซต์ที่แยกจากกัน ฉบับร่างนี้ต้องได้รับอนุมัติจากเจ้าของก่อนเผยแพร่"
+    ],
+    "eyebrow": "การผจญภัยเล็ก ๆ ที่ได้ใช้เวลาด้วยกัน",
+    "hero": [
+      "นิทานเล็ก ๆ",
+      "มหัศจรรย์ยิ่งใหญ่"
+    ],
+    "intro": "ก้าวเข้าสู่โลกนิทานจากกระดาษซ้อนชั้น อ่านด้วยกัน ฟังเสียงบรรยายภาษาไทยหรือภาษาอังกฤษ แล้วค้นพบสิ่งเล็ก ๆ ระหว่างทาง",
+    "explore": "พบกับนิทาน",
+    "featuresLink": "สำรวจฟีเจอร์",
+    "screenCaption": "ภาพจริงจากหน้าที่อ่านนิทานใน Oonmoon • ภาพแนวนอนจาก Simulator",
+    "readerAlt": "หน้าที่อ่านหนูน้อยหมวกแดงภาษาไทยใน Oonmoon เป็นภาพแนวนอน แสดงทางเดินในป่า ตัวละคร ข้อความบรรยาย และปุ่มควบคุม",
+    "campTitle": "ทุกคนมาพร้อมหน้า ถึงเวลาเล่านิทานแล้ว",
+    "campText": "นิทานคุ้นเคยสิบเรื่อง มาพบกันใต้แสงจันทร์",
+    "campAlt": "ตัวละครจากเรื่อง",
+    "shelfAlt": "ชั้นหนังสือ Oonmoon ในแนวนอน แสดงปกนิทานคลาสสิกทั้งสิบเรื่อง",
+    "dressingAlt": "หน้าเลือกตัวละครใน Oonmoon เป็นภาพแนวนอน มีตัวเลือกรูปลักษณ์และสีผิว",
+    "featureHeading": "เติมความมหัศจรรย์ให้ช่วงเวลาเล่านิทาน",
+    "featureIntro": "หนังสือนิทานสำหรับอ่าน ฟัง และสำรวจไปด้วยกัน",
+    "featureCards": [
+      [
+        "สองภาษา หนึ่งการผจญภัย",
+        "ฟังเสียงบรรยายภาษาไทยหรือภาษาอังกฤษที่บันทึกไว้ และอ่านตามข้อความในนิทาน"
+      ],
+      [
+        "เลือกตัวละครในแบบของตัวเอง",
+        "เลือกตัวละครและปรับรูปลักษณ์ในแบบของตัวเอง"
+      ],
+      [
+        "สิ่งเล็ก ๆ ที่รอให้ค้นพบ",
+        "แตะภาพในฉากเพื่อโต้ตอบกับตัวละครและสิ่งของ"
+      ],
+      [
+        "ให้นิทานพาไปยังหน้าถัดไป",
+        "เลือกเปิดการเปลี่ยนหน้าอัตโนมัติ เพื่อให้หน้าถัดไปเปิดเมื่อเสียงบรรยายเล่นจบสำเร็จ หรือจะเปลี่ยนหน้าเองก็ได้"
+      ],
+      [
+        "นิทานพร้อมให้ฟัง",
+        "ภาพ ข้อความนิทาน และไฟล์เสียงบรรยายมาพร้อมกับแอป"
+      ],
+      [
+        "ชั้นหนังสือที่เติบโตได้",
+        "รวมสามเรื่องแรกไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต ไม่มีค่าสมาชิก"
+      ]
+    ],
+    "duoHeading": "ออกแบบโดยคำนึงถึง iPhone Duo",
+    "duoText": "Oonmoon 0.7.8 ปรับปรุงการแสดงผลตามขนาดหน้าต่าง ระยะขอบที่ไม่ถูกบัง และแนวแบ่งพื้นที่จอ โดยมีการตรวจสอบบางรายการบน Simulator แล้ว การเปลี่ยนหน้าจอขณะพับหรือกาง การใช้ Split View และการใช้งานบน iPhone Duo จริงยังไม่ได้รับการยืนยัน ฮาร์ดแวร์ยังไม่วางจำหน่าย ณ วันที่ตรวจสอบ 10 ตุลาคม 2026",
+    "libraryHeading": "สิบเรื่อง กับการผจญภัยเล็ก ๆ มากมาย",
+    "libraryIntro": "ตั้งแต่ทางเดินคดเคี้ยวในป่าไปจนถึงแม่ไก่ผู้มุ่งมั่น เหล่าตัวละครที่คุ้นเคยรออยู่บนชั้นหนังสือ",
+    "included": "รวมไว้ให้แล้ว",
+    "fullLibrary": "คลังนิทานทั้งหมด",
+    "libraryNote": "รวมหนูน้อยหมวกแดง เต่าและกระต่าย และหมูน้อยสามตัวไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต ไม่มีค่าสมาชิก Oonmoon กำลังจะเปิดให้บริการ",
+    "storyTitles": [
+      "หนูน้อยหมวกแดง",
+      "เต่าและกระต่าย",
+      "หมูน้อยสามตัว",
+      "ลูกเป็ดขี้เหร่",
+      "โกลดิล็อกส์กับหมีสามตัว",
+      "ราชสีห์กับหนู",
+      "แม่ไก่สีแดง",
+      "แพะสามตัวผู้กล้าหาญ",
+      "เอลฟ์กับช่างทำรองเท้า",
+      "มนุษย์ขนมปังขิง"
+    ],
+    "storyNotes": [
+      "ตะกร้าหนึ่งใบ ทางเดินในป่า และการไปเยี่ยมคุณยาย",
+      "การแข่งขันของเพื่อนสองตัวที่แตกต่างกัน",
+      "ลูกหมูนักสร้างบ้านสามตัว บ้านสามหลัง และผู้มาเยือนพร้อมลมแรง",
+      "ลูกเป็ดน้อยค้นพบมิตรภาพ ครอบครัว และตัวตนของตัวเอง",
+      "กระท่อมกลางป่ากับเจ้าบ้านหมีสามตัว",
+      "เพื่อนตัวเล็กก็ช่วยเรื่องใหญ่ได้",
+      "ติดตามแม่ไก่ผู้ขยัน จากเมล็ดข้าวสาลีจนกลายเป็นขนมปัง",
+      "แพะสามตัวกับการข้ามสะพานที่ไม่ง่ายนัก",
+      "ช่างทำรองเท้าค้นพบผู้ช่วยตัวจิ๋ว",
+      "เจ้าขนมปังขิงที่เพิ่งอบเสร็จออกวิ่งผจญภัย"
+    ],
+    "supportHeading": "ความช่วยเหลือสำหรับช่วงเวลาเล่านิทาน",
+    "supportIntro": "หากมีคำถามเกี่ยวกับแอปหรือความเป็นส่วนตัว ผู้ใหญ่สามารถติดต่อเราได้ที่",
+    "emailLabel": "ส่งอีเมลขอความช่วยเหลือเกี่ยวกับ Oonmoon",
+    "emailNote": "โปรดหลีกเลี่ยงการส่งชื่อ รูปภาพ หรือข้อมูลส่วนตัวที่ไม่จำเป็นของเด็ก ระบุรุ่นแอป รุ่นอุปกรณ์ และอธิบายปัญหาสั้น ๆ",
+    "privacyHeading": "ความเป็นส่วนตัว อธิบายให้เข้าใจง่าย",
+    "privacyIntro": "แนวทางของแอปและเว็บไซต์อธิบายแยกกันด้านล่าง",
+    "draft": "ฉบับร่างสำหรับเจ้าของตรวจทาน",
+    "draftText": "ตัวอย่างเว็บไซต์ในเครื่องนี้ยังไม่ใช่นโยบายความเป็นส่วนตัวฉบับสมบูรณ์ที่ได้รับอนุมัติ เจ้าของต้องยืนยันผู้ดำเนินการตามกฎหมาย วันที่มีผลใช้บังคับ ประเทศที่ให้บริการ ขั้นตอนดำเนินการตามคำขอด้านความเป็นส่วนตัว การจัดการข้อมูลที่ส่งถึงฝ่ายช่วยเหลือ และรายละเอียดการโฮสต์เว็บไซต์ ข้อความภาษาไทยและภาษาอังกฤษต้องได้รับอนุมัติก่อนเผยแพร่",
+    "footer": "สำหรับช่วงเวลาที่ได้อยู่ด้วยกัน",
+    "footerStatus": "พบกับ Oonmoon เร็ว ๆ นี้",
+    "credits": "iPhone และ iPad เป็นเครื่องหมายการค้าของ Apple Inc. ที่จดทะเบียนในสหรัฐอเมริกาและประเทศอื่น ๆ App Store เป็นเครื่องหมายบริการของ Apple Inc. ใช้ชื่อผลิตภัณฑ์ Apple เพื่ออธิบายแนวทางการออกแบบ โดยไม่ได้สื่อถึงการรับรองจาก Apple",
+    "seeScreen": "เปิดภาพหน้าจอแนวนอนขนาดเต็ม",
+    "previewNotice": "ตัวอย่างในเครื่อง • ยังไม่ได้เผยแพร่",
+    "backHome": "กลับไปช่วงเวลาเล่านิทาน"
+  }
+}

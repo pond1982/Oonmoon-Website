@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Local preview. Set the real base URL and enable public indexing before deployment.

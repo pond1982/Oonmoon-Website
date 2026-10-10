@@ -1,0 +1,126 @@
+{
+  "en": {
+    "privacy": [
+      {
+        "heading": "Privacy notice — owner-review draft",
+        "text": "This draft describes the audited Oonmoon 0.7.8 app and the planned static website. It is not yet an approved final policy. The legal operator, effective date, applicable markets and privacy rights, and final English and Thai wording still need the owner's confirmation before release. Privacy questions can be sent to pondd.me@gmail.com. Owner access to Apple-provided app analytics, sales/download reports and diagnostics also remains unconfirmed; these platform reports are separate from embedded app analytics."
+      },
+      {
+        "heading": "Preferences saved on your device",
+        "text": "Oonmoon stores character appearance and selection, reading language, sound choices, bookmarks and story-completion preferences locally. Existing character names from earlier setup may also remain in local preferences. The current app implementation does not send these preferences to a developer-operated server. Device backups are a separate matter."
+      },
+      {
+        "heading": "Accounts, tracking and permissions",
+        "text": "The audited Release app has no Oonmoon sign-in account, advertising, analytics, tracking or photo-upload feature. It does not request access to the camera, microphone, photo library, contacts or location. Its privacy manifest declares no tracking or developer-collected data. These technical findings do not replace the owner's final policy approval."
+      },
+      {
+        "heading": "Recorded narration",
+        "text": "English and Thai narration recordings are bundled with the app and played locally, including offline playback for stories you can access. Reading does not send text, names or audio to a narration provider or generate a new voice recording. Purchases and restoring access may still need a connection to Apple."
+      },
+      {
+        "heading": "Purchases handled by Apple",
+        "text": "The one-time full-library purchase uses Apple's StoreKit. Apple handles the Apple Account and payment flow; Oonmoon uses verified purchase information to decide which stories can be opened. Product details, purchases, restores and ownership updates can communicate with Apple. Restore Purchases may ask for Apple Account authentication. Apple's own privacy terms apply to its services."
+      },
+      {
+        "heading": "Deleting local choices",
+        "text": "In the grown-ups area, Delete character & local choices removes the app's saved character preferences, language and sound choices, and bookmarks on that device. It does not erase Apple purchase records, device backups or support emails. Backup behavior depends on your device and Apple settings; no promise is made here about deleting information from backups."
+      },
+      {
+        "heading": "When you email support",
+        "text": "If you choose to email pondd.me@gmail.com, your email address, message and any attachments you send are handled through email services, separately from the app. Please send only the details needed to explain the issue. The support mailbox's retention practices and the owner's handling of privacy requests still need confirmation."
+      },
+      {
+        "heading": "Website language preference",
+        "text": "This static website uses browser localStorage to remember your explicit English or Thai language choice. You can remove that preference in your browser's site-storage settings. The website has no login, backend, analytics or advertising scripts, and its own code sets no cookies. Browser-language detection is used only to suggest a language on the first visit."
+      },
+      {
+        "heading": "Website hosting is separate",
+        "text": "The website is prepared for GitHub Pages hosting. GitHub's processing is separate from the Oonmoon app and is governed by GitHub's own policies. Hosting-log details, retention and the owner's access to hosting data have not yet been confirmed. The app's local-storage practices should not be read as a promise that website hosting processes no visitor information."
+      }
+    ],
+    "support": [
+      {
+        "question": "Why can’t I hear the narration?",
+        "answer": "Check your device's volume and audio output, then check Sound in the reader menu. English and Thai recordings are bundled with the app. If a recording cannot be opened, use the retry option; you can still read quietly and turn pages yourself. If the issue continues, email pondd.me@gmail.com with the story, language, app version and device model."
+      },
+      {
+        "question": "How does automatic page turning work?",
+        "answer": "Turn on Auto turn in the reader menu. The next page opens after the current narration finishes successfully. Auto turn is optional; you can keep it off and turn pages yourself. A missing or interrupted recording does not count as completed narration."
+      },
+      {
+        "question": "Can I switch between Thai and English?",
+        "answer": "Yes. Choose the story language in the app to use the matching captions and recorded narration. The website also has an always-visible English / ไทย switch on every public page and remembers your explicit website choice. The app and website keep their language preferences separately."
+      },
+      {
+        "question": "Which stories are included?",
+        "answer": "Little Red Riding Hood, The Tortoise and the Hare, and The Three Little Pigs are included. A one-time full-library purchase unlocks the other seven completed stories and future completed stories added to Oonmoon. There is no subscription. The app is coming soon; the actual storefront price and listing will be shown when they are available."
+      },
+      {
+        "question": "How do I restore purchases or clear local choices?",
+        "answer": "Open the grown-ups area and complete the parental gate. Full library & restore purchases includes Restore Purchases, which checks with Apple and may request Apple Account authentication. Delete character & local choices clears saved device choices and bookmarks, while Apple purchase history remains separate. For help with access, deletion or privacy questions, email pondd.me@gmail.com; do not send passwords or payment details."
+      }
+    ]
+  },
+  "th": {
+    "privacy": [
+      {
+        "heading": "ประกาศความเป็นส่วนตัว — ฉบับร่างสำหรับเจ้าของตรวจทาน",
+        "text": "ฉบับร่างนี้อธิบายแอปอุ่นมูนรุ่น 0.7.8 ที่ตรวจสอบแล้ว และเว็บไซต์แบบสแตติกที่เตรียมไว้ ยังไม่ใช่นโยบายฉบับสมบูรณ์ที่ได้รับอนุมัติ เจ้าของต้องยืนยันผู้ดำเนินการตามกฎหมาย วันที่มีผลใช้บังคับ ประเทศที่ให้บริการ สิทธิด้านความเป็นส่วนตัวที่เกี่ยวข้อง และข้อความภาษาไทยกับภาษาอังกฤษก่อนเปิดให้บริการ ติดต่อสอบถามเรื่องความเป็นส่วนตัวได้ที่ pondd.me@gmail.com การเข้าถึงข้อมูลวิเคราะห์แอป รายงานยอดขายหรือการดาวน์โหลด และข้อมูลวินิจฉัยที่ Apple จัดให้โดยเจ้าของยังไม่ได้รับการยืนยัน รายงานจากแพลตฟอร์มเหล่านี้แยกจากระบบวิเคราะห์ที่ฝังในแอป"
+      },
+      {
+        "heading": "ตัวเลือกที่บันทึกไว้ในอุปกรณ์",
+        "text": "อุ่นมูนบันทึกรูปลักษณ์และตัวเลือกของตัวละคร ภาษาของนิทาน การตั้งค่าเสียง หน้าที่อ่านค้างไว้ และสถานะการอ่านจบไว้ในอุปกรณ์ ชื่อตัวละครที่เคยตั้งไว้ในรุ่นก่อนอาจยังอยู่ในข้อมูลตัวเลือกด้วย การทำงานของแอปปัจจุบันไม่ได้ส่งข้อมูลเหล่านี้ไปยังเซิร์ฟเวอร์ที่ผู้พัฒนาเป็นผู้ดำเนินการ ส่วนการสำรองข้อมูลของอุปกรณ์เป็นอีกเรื่องหนึ่ง"
+      },
+      {
+        "heading": "บัญชีผู้ใช้ การติดตาม และสิทธิ์เข้าถึง",
+        "text": "แอปรุ่น Release ที่ตรวจสอบไม่มีบัญชีสำหรับเข้าสู่ระบบอุ่นมูน โฆษณา ระบบวิเคราะห์การใช้งาน การติดตาม หรือการอัปโหลดภาพถ่าย แอปไม่ขอเข้าถึงกล้อง ไมโครโฟน คลังภาพ รายชื่อผู้ติดต่อ หรือตำแหน่งที่ตั้ง ไฟล์ประกาศความเป็นส่วนตัวของแอประบุว่าไม่มีการติดตามหรือการเก็บข้อมูลโดยผู้พัฒนา ข้อค้นพบทางเทคนิคนี้ไม่ทดแทนการอนุมัตินโยบายฉบับสมบูรณ์โดยเจ้าของ"
+      },
+      {
+        "heading": "เสียงบรรยายที่บันทึกไว้แล้ว",
+        "text": "ไฟล์เสียงบรรยายภาษาไทยและภาษาอังกฤษมาพร้อมกับแอปและเล่นในอุปกรณ์ รวมถึงเล่นแบบออฟไลน์สำหรับนิทานที่คุณมีสิทธิ์อ่าน การอ่านนิทานไม่ส่งข้อความ ชื่อ หรือเสียงไปยังผู้ให้บริการเสียงบรรยาย และไม่สร้างไฟล์เสียงใหม่ การซื้อและการกู้คืนสิทธิ์อ่านอาจยังต้องเชื่อมต่อกับ Apple"
+      },
+      {
+        "heading": "การซื้อดำเนินการผ่าน Apple",
+        "text": "การซื้อคลังนิทานครั้งเดียวใช้ StoreKit ของ Apple โดย Apple ดูแลบัญชี Apple และขั้นตอนการชำระเงิน อุ่นมูนใช้ข้อมูลการซื้อที่ผ่านการตรวจสอบเพื่อตัดสินว่านิทานเรื่องใดเปิดอ่านได้ การโหลดรายละเอียดสินค้า การซื้อ การกู้คืน และการอัปเดตสิทธิ์อาจมีการติดต่อกับ Apple การกู้คืนการซื้ออาจขอให้ยืนยันบัญชี Apple บริการของ Apple อยู่ภายใต้ข้อกำหนดความเป็นส่วนตัวของ Apple เอง"
+      },
+      {
+        "heading": "การลบตัวเลือกในอุปกรณ์",
+        "text": "ในเมนูสำหรับผู้ใหญ่ เลือก ลบตัวละครและตัวเลือกในอุปกรณ์ เพื่อลบตัวเลือกของตัวละคร ภาษา การตั้งค่าเสียง และหน้าที่อ่านค้างไว้ในอุปกรณ์นั้น การลบนี้ไม่ลบประวัติการซื้อของ Apple ข้อมูลสำรองของอุปกรณ์ หรืออีเมลที่ส่งถึงฝ่ายช่วยเหลือ การสำรองข้อมูลขึ้นอยู่กับอุปกรณ์และการตั้งค่าของ Apple จึงไม่มีคำรับรองในหน้านี้ว่าจะลบข้อมูลออกจากข้อมูลสำรองด้วย"
+      },
+      {
+        "heading": "เมื่อคุณส่งอีเมลขอความช่วยเหลือ",
+        "text": "หากคุณเลือกส่งอีเมลไปที่ pondd.me@gmail.com ที่อยู่อีเมล ข้อความ และไฟล์แนบที่คุณส่งจะถูกจัดการผ่านบริการอีเมล แยกจากการทำงานของแอป โปรดส่งเฉพาะรายละเอียดที่จำเป็นต่อการอธิบายปัญหา แนวทางการเก็บรักษาข้อมูลในกล่องจดหมายและการดำเนินการตามคำขอด้านความเป็นส่วนตัวโดยเจ้าของยังต้องได้รับการยืนยัน"
+      },
+      {
+        "heading": "ตัวเลือกภาษาบนเว็บไซต์",
+        "text": "เว็บไซต์แบบสแตติกนี้ใช้ localStorage ของเบราว์เซอร์เพื่อจำภาษาที่คุณเลือกเองระหว่างไทยกับอังกฤษ คุณลบตัวเลือกนี้ได้ในการตั้งค่าข้อมูลเว็บไซต์ของเบราว์เซอร์ เว็บไซต์ไม่มีระบบเข้าสู่ระบบ ระบบหลังบ้าน สคริปต์วิเคราะห์การใช้งาน หรือโฆษณา และโค้ดของเว็บไซต์เองไม่ตั้งคุกกี้ การตรวจสอบภาษาของเบราว์เซอร์ใช้เพื่อแนะนำภาษาในการเข้าชมครั้งแรกเท่านั้น"
+      },
+      {
+        "heading": "บริการโฮสต์เว็บไซต์แยกจากแอป",
+        "text": "เว็บไซต์นี้เตรียมไว้สำหรับโฮสต์บน GitHub Pages การประมวลผลข้อมูลโดย GitHub แยกจากแอปอุ่นมูนและอยู่ภายใต้นโยบายของ GitHub เอง รายละเอียดบันทึกการเข้าถึง ระยะเวลาเก็บรักษา และสิทธิ์ของเจ้าของในการเข้าถึงข้อมูลโฮสต์ยังไม่ได้รับการยืนยัน แนวทางเก็บตัวเลือกไว้ในอุปกรณ์ของแอปจึงไม่ได้หมายความว่าบริการโฮสต์เว็บไซต์จะไม่ประมวลผลข้อมูลของผู้เข้าชม"
+      }
+    ],
+    "support": [
+      {
+        "question": "ทำไมไม่ได้ยินเสียงบรรยาย?",
+        "answer": "ตรวจสอบระดับเสียงและอุปกรณ์ที่ใช้เล่นเสียง แล้วตรวจสอบตัวเลือก เสียง ในเมนูของหน้าที่อ่าน ไฟล์เสียงภาษาไทยและภาษาอังกฤษมาพร้อมกับแอป หากเปิดไฟล์เสียงไม่ได้ ให้เลือกลองอีกครั้ง คุณยังอ่านแบบเงียบและเปลี่ยนหน้าเองได้ หากปัญหายังอยู่ ส่งอีเมลไปที่ pondd.me@gmail.com พร้อมชื่อนิทาน ภาษา รุ่นแอป และรุ่นอุปกรณ์"
+      },
+      {
+        "question": "การเปลี่ยนหน้าอัตโนมัติทำงานอย่างไร?",
+        "answer": "เปิด เปลี่ยนหน้าอัตโนมัติ ในเมนูของหน้าที่อ่าน แอปจะเปิดหน้าถัดไปเมื่อเสียงบรรยายของหน้าปัจจุบันเล่นจบสำเร็จ คุณเลือกปิดตัวเลือกนี้และเปลี่ยนหน้าเองได้ ไฟล์เสียงที่เปิดไม่ได้หรือเสียงที่ถูกขัดจังหวะจะไม่นับว่าเล่นบรรยายจบแล้ว"
+      },
+      {
+        "question": "สลับภาษาไทยกับภาษาอังกฤษได้ไหม?",
+        "answer": "ได้ เลือกภาษาของนิทานในแอปเพื่อใช้ข้อความและเสียงบรรยายที่ตรงกับภาษานั้น เว็บไซต์มีปุ่ม English / ไทย ที่มองเห็นได้เสมอในทุกหน้าสาธารณะ และจำภาษาที่คุณเลือกเอง ตัวเลือกภาษาของแอปกับเว็บไซต์ถูกบันทึกแยกกัน"
+      },
+      {
+        "question": "นิทานเรื่องใดอ่านได้โดยไม่ต้องปลดล็อกคลัง?",
+        "answer": "หนูน้อยหมวกแดง เต่าและกระต่าย และหมูน้อยสามตัวเป็นสามเรื่องที่รวมไว้ให้แล้ว ซื้อคลังนิทานเพียงครั้งเดียวเพื่อปลดล็อกนิทานที่เสร็จสมบูรณ์อีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้าอุ่นมูนในอนาคต ไม่มีค่าสมาชิก แอปกำลังจะเปิดให้บริการ โดยจะแสดงราคาจริงและหน้าร้านเมื่อพร้อม"
+      },
+      {
+        "question": "กู้คืนการซื้อหรือลบตัวเลือกในอุปกรณ์อย่างไร?",
+        "answer": "เปิดเมนูสำหรับผู้ใหญ่และตอบคำถามยืนยัน เมนู คลังนิทานและกู้คืนการซื้อ มีตัวเลือก กู้คืนการซื้อ ซึ่งตรวจสอบกับ Apple และอาจขอให้ยืนยันบัญชี Apple ส่วน ลบตัวละครและตัวเลือกในอุปกรณ์ จะลบตัวเลือกที่บันทึกไว้และหน้าที่อ่านค้างไว้ในอุปกรณ์ โดยประวัติการซื้อของ Apple เป็นข้อมูลอีกส่วนหนึ่ง หากต้องการความช่วยเหลือเรื่องสิทธิ์อ่าน การลบข้อมูล หรือความเป็นส่วนตัว ติดต่อ pondd.me@gmail.com โดยไม่ส่งรหัสผ่านหรือรายละเอียดการชำระเงิน"
+      }
+    ]
+  }
+}

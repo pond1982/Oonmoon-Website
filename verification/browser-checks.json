@@ -1,0 +1,542 @@
+{
+  "started": "2026-10-10T05:46:07.623Z",
+  "base": "http://127.0.0.1:8765/site-stage/",
+  "checks": [
+    {
+      "name": "Static page /",
+      "status": "PASS",
+      "detail": {
+        "lang": "en",
+        "h1": 1,
+        "title": "Oonmoon — Thai & English storytime",
+        "description": "Choose English or Thai and discover Oonmoon’s ten classic stories, recorded narration and character choices. Coming soon.",
+        "canonical": "https://example.invalid/oonmoon/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/"
+          }
+        ],
+        "mainText": 555,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links /",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page en/",
+      "status": "PASS",
+      "detail": {
+        "lang": "en",
+        "h1": 1,
+        "title": "Oonmoon — Little stories. Big wonder.",
+        "description": "Read, listen and explore ten classic stories with Oonmoon. Thai and English recorded narration, character choices and little moments of discovery. Coming soon.",
+        "canonical": "https://example.invalid/oonmoon/en/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/"
+          }
+        ],
+        "mainText": 1225,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links en/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page th/",
+      "status": "PASS",
+      "detail": {
+        "lang": "th",
+        "h1": 1,
+        "title": "Oonmoon — นิทานเล็ก ๆ กับความมหัศจรรย์ที่ยิ่งใหญ่",
+        "description": "อ่าน ฟัง และสำรวจนิทานคลาสสิก 10 เรื่องกับ Oonmoon พร้อมเสียงบรรยายภาษาไทยและภาษาอังกฤษที่บันทึกไว้ เลือกตัวละครและค้นพบสิ่งเล็ก ๆ ในภาพ พบกันเร็ว ๆ นี้",
+        "canonical": "https://example.invalid/oonmoon/th/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/"
+          }
+        ],
+        "mainText": 1159,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links th/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page en/features/",
+      "status": "PASS",
+      "detail": {
+        "lang": "en",
+        "h1": 1,
+        "title": "Features — Oonmoon",
+        "description": "Explore Oonmoon’s Thai and English narration, character selection, tap interactions and automatic page turning.",
+        "canonical": "https://example.invalid/oonmoon/en/features/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/features/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/features/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/features/"
+          }
+        ],
+        "mainText": 1146,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links en/features/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page th/features/",
+      "status": "PASS",
+      "detail": {
+        "lang": "th",
+        "h1": 1,
+        "title": "ฟีเจอร์ — Oonmoon",
+        "description": "รู้จักฟีเจอร์ของ Oonmoon ทั้งเสียงบรรยายภาษาไทยและภาษาอังกฤษ การเลือกตัวละคร การแตะโต้ตอบกับภาพ และการเปลี่ยนหน้าอัตโนมัติ",
+        "canonical": "https://example.invalid/oonmoon/th/features/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/features/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/features/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/features/"
+          }
+        ],
+        "mainText": 1059,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links th/features/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page en/stories/",
+      "status": "PASS",
+      "detail": {
+        "lang": "en",
+        "h1": 1,
+        "title": "Ten classic stories — Oonmoon",
+        "description": "Meet Oonmoon’s ten classic stories. Three are included; a one-time full-library unlock covers the other seven and future completed books added to Oonmoon.",
+        "canonical": "https://example.invalid/oonmoon/en/stories/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/stories/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/stories/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/stories/"
+          }
+        ],
+        "mainText": 1277,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links en/stories/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page th/stories/",
+      "status": "PASS",
+      "detail": {
+        "lang": "th",
+        "h1": 1,
+        "title": "นิทานคลาสสิก 10 เรื่อง — Oonmoon",
+        "description": "พบกับนิทานคลาสสิก 10 เรื่องใน Oonmoon รวมสามเรื่องแรกไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่องและนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต",
+        "canonical": "https://example.invalid/oonmoon/th/stories/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/stories/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/stories/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/stories/"
+          }
+        ],
+        "mainText": 1146,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links th/stories/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page en/support/",
+      "status": "PASS",
+      "detail": {
+        "lang": "en",
+        "h1": 1,
+        "title": "Support — Oonmoon",
+        "description": "Help with Oonmoon storytime, narration, language, library access and local choices. Contact pondd.me@gmail.com.",
+        "canonical": "https://example.invalid/oonmoon/en/support/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/support/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/support/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/support/"
+          }
+        ],
+        "mainText": 482,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links en/support/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page th/support/",
+      "status": "PASS",
+      "detail": {
+        "lang": "th",
+        "h1": 1,
+        "title": "ช่วยเหลือ — Oonmoon",
+        "description": "ความช่วยเหลือเกี่ยวกับการอ่านนิทาน เสียงบรรยาย ภาษา สิทธิ์อ่าน และตัวเลือกที่บันทึกไว้ในอุปกรณ์ ติดต่อ pondd.me@gmail.com",
+        "canonical": "https://example.invalid/oonmoon/th/support/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/support/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/support/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/support/"
+          }
+        ],
+        "mainText": 449,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links th/support/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page en/privacy/",
+      "status": "PASS",
+      "detail": {
+        "lang": "en",
+        "h1": 1,
+        "title": "Privacy draft — Oonmoon",
+        "description": "Review Oonmoon’s app privacy practices and separate website hosting notes. This policy draft requires owner approval before publication.",
+        "canonical": "https://example.invalid/oonmoon/en/privacy/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/privacy/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/privacy/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/privacy/"
+          }
+        ],
+        "mainText": 4012,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links en/privacy/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Static page th/privacy/",
+      "status": "PASS",
+      "detail": {
+        "lang": "th",
+        "h1": 1,
+        "title": "ร่างนโยบายความเป็นส่วนตัว — Oonmoon",
+        "description": "อ่านข้อมูลความเป็นส่วนตัวของแอป Oonmoon และข้อมูลการโฮสต์เว็บไซต์ที่แยกจากกัน ฉบับร่างนี้ต้องได้รับอนุมัติจากเจ้าของก่อนเผยแพร่",
+        "canonical": "https://example.invalid/oonmoon/th/privacy/",
+        "alternates": [
+          {
+            "lang": "en",
+            "url": "https://example.invalid/oonmoon/en/privacy/"
+          },
+          {
+            "lang": "th",
+            "url": "https://example.invalid/oonmoon/th/privacy/"
+          },
+          {
+            "lang": "x-default",
+            "url": "https://example.invalid/oonmoon/en/privacy/"
+          }
+        ],
+        "mainText": 3915,
+        "missingAlt": 0,
+        "broken": [],
+        "scripts": [
+          "http://127.0.0.1:8765/site-stage/assets/site.js"
+        ],
+        "bodyWidth": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "Internal links th/privacy/",
+      "status": "PASS",
+      "detail": "all internal targets return 200"
+    },
+    {
+      "name": "Responsive 320×568",
+      "status": "PASS",
+      "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Responsive 390×844",
+      "status": "PASS",
+      "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Responsive 768×1024",
+      "status": "PASS",
+      "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Responsive 1024×768",
+      "status": "PASS",
+      "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Responsive 1440×900",
+      "status": "PASS",
+      "detail": "11 routes: no horizontal overflow"
+    },
+    {
+      "name": "Thai first visit",
+      "status": "PASS",
+      "detail": {
+        "suggested": "th",
+        "noRedirect": true
+      }
+    },
+    {
+      "name": "English first visit",
+      "status": "PASS",
+      "detail": {
+        "suggested": "en",
+        "noRedirect": true
+      }
+    },
+    {
+      "name": "Unsupported fallback",
+      "status": "PASS",
+      "detail": {
+        "suggested": "en",
+        "noRedirect": true
+      }
+    },
+    {
+      "name": "Manual override",
+      "status": "PASS",
+      "detail": {
+        "suggested": "en",
+        "noRedirect": true
+      }
+    },
+    {
+      "name": "Manual switch and remembered choice",
+      "status": "PASS",
+      "detail": "same counterpart page; stored en wins at neutral root; direct th remains th"
+    },
+    {
+      "name": "JavaScript disabled",
+      "status": "PASS",
+      "detail": "11 routes contain static main content and 2 language links"
+    },
+    {
+      "name": "Blocked preference storage",
+      "status": "PASS",
+      "detail": "browser suggestion and static language links work"
+    },
+    {
+      "name": "Reduced motion",
+      "status": "PASS",
+      "detail": "smooth scrolling disabled"
+    },
+    {
+      "name": "Keyboard skip navigation",
+      "status": "PASS",
+      "detail": "first Tab reveals skip link, Enter reaches main"
+    },
+    {
+      "name": "Keyboard support disclosure",
+      "status": "PASS",
+      "detail": "native details opened with Enter"
+    },
+    {
+      "name": "Preview desktop",
+      "status": "PASS",
+      "detail": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "Preview mobile",
+      "status": "PASS",
+      "detail": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "Preview tablet",
+      "status": "PASS",
+      "detail": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "name": "Browser console and responses",
+      "status": "PASS",
+      "detail": "no page errors or failed responses"
+    }
+  ],
+  "errors": [],
+  "finished": "2026-10-10T05:46:54.450Z"
+}

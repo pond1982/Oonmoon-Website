@@ -1,0 +1,1089 @@
+{
+  "schema": "oonmoon-website-asset-provenance-v1",
+  "generatedUTC": "2026-10-10T05:38:15.086Z",
+  "appRevision": "59cdeb720555f65acb6b98428f14c186015e74b7",
+  "appVersion": "0.7.8 (36)",
+  "changesToAppSourceOrAssets": 0,
+  "notes": [
+    "All screenshots are accepted native iOS Simulator captures, not physical-device or Duo evidence.",
+    "Screenshot resizing preserves the complete landscape image; no crop, rotation, redraw, device frame, or stretch.",
+    "Character cutouts preserve the complete original source canvas and alpha; uniform resize only.",
+    "The existing forest illustration is marketing artwork, not an app screenshot.",
+    "Regeneration is optional and requires the original local sources; shipped assets work independently."
+  ],
+  "characterInventory": {
+    "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Marketing-0.7.8-Disney-Five-Panel-Proof-01/Character-Camp-Revision02/Inventory.json",
+    "sha256": "4a1cba3f665d8ab645b7ce9ff92982ba7a4589a42a49b27bbcb4ca0ed8f6aa32",
+    "bytes": 17804
+  },
+  "assets": [
+    {
+      "filename": "shelf-en-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/01-Shelf-EN-ImageIO.png",
+        "sha256": "1209cd3ad3704405621c33b78c1297c08a90b2354866255de6e71959ce38b8b2",
+        "bytes": 4641816,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/shelf-en-800.jpg",
+        "sha256": "2ea5ddbbe6ee9d3faa2025369c21ca31ae85ab333d142eb6dc63c64f6403d130",
+        "bytes": 109990,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "01-Shelf-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "shelf-en-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/01-Shelf-EN-ImageIO.png",
+        "sha256": "1209cd3ad3704405621c33b78c1297c08a90b2354866255de6e71959ce38b8b2",
+        "bytes": 4641816,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/shelf-en-1600.jpg",
+        "sha256": "2422d4965c2d0dab66d2d5cf4164b1552f52bc22e9f37f69d60053009f0b66c7",
+        "bytes": 361487,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "01-Shelf-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "dressing-girl-en-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/02-Dressing-Girl-EN-ImageIO.png",
+        "sha256": "d85a8bfcafff1ed2452020f9ae79aaf0a12f8dea5f9b6d99b8a299d3719ea86d",
+        "bytes": 4066422,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/dressing-girl-en-800.jpg",
+        "sha256": "0f430d7a8ef729a99928e9d66b86e1e7fb143a1009e234917e98ed81fa2e6c5b",
+        "bytes": 79812,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "02-Dressing-Girl-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "dressing-girl-en-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/02-Dressing-Girl-EN-ImageIO.png",
+        "sha256": "d85a8bfcafff1ed2452020f9ae79aaf0a12f8dea5f9b6d99b8a299d3719ea86d",
+        "bytes": 4066422,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/dressing-girl-en-1600.jpg",
+        "sha256": "030b0f4cfa3729417b6ad84260535d3861a6b153fa71c1cd44519c9d2c107661",
+        "bytes": 254770,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "02-Dressing-Girl-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "dressing-boy-en-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/03-Dressing-Boy-EN-ImageIO.png",
+        "sha256": "32618d0741dd88c51be0e4383bf5032ea8678b8b770df3687212fd4b3070f6ab",
+        "bytes": 4059316,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/dressing-boy-en-800.jpg",
+        "sha256": "ab838ca088294d5f78b762aeb524179fcc34b7c891537e9628a65375a3db382a",
+        "bytes": 79488,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "03-Dressing-Boy-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "dressing-boy-en-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/03-Dressing-Boy-EN-ImageIO.png",
+        "sha256": "32618d0741dd88c51be0e4383bf5032ea8678b8b770df3687212fd4b3070f6ab",
+        "bytes": 4059316,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/dressing-boy-en-1600.jpg",
+        "sha256": "b43e7c32322db083551282225a296463ec89264c17b9d1223b5d28e0f4942a4f",
+        "bytes": 253529,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "03-Dressing-Boy-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "reader-en-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/04-Red-EN-ImageIO.png",
+        "sha256": "aae4d45565d05f6b258eadf5b8bdcf47f63421bdd90ef34aa8e4c91f9e6e924a",
+        "bytes": 4404718,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/reader-en-800.jpg",
+        "sha256": "7a469b8889f91579de06e63110ace0b8d83f494365c29af4dabc3234490cdb96",
+        "bytes": 98539,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "04-Red-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "reader-en-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/04-Red-EN-ImageIO.png",
+        "sha256": "aae4d45565d05f6b258eadf5b8bdcf47f63421bdd90ef34aa8e4c91f9e6e924a",
+        "bytes": 4404718,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/reader-en-1600.jpg",
+        "sha256": "173526de2b18c59189de19599e1c8f8faf16c1f4cbab074b1bc28f1e4319d3eb",
+        "bytes": 286743,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "04-Red-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "reader-th-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/05-Red-TH-ImageIO.png",
+        "sha256": "3211bdc6d5f7d22c79e229e618e9f5e2a8102623a87157c0220f817aee9b5e4b",
+        "bytes": 4405521,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/reader-th-800.jpg",
+        "sha256": "76209b4868570309442074548c7109fb6c51056d44dc306954c5482d424c87e6",
+        "bytes": 100207,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "05-Red-TH",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "reader-th-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/05-Red-TH-ImageIO.png",
+        "sha256": "3211bdc6d5f7d22c79e229e618e9f5e2a8102623a87157c0220f817aee9b5e4b",
+        "bytes": 4405521,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/reader-th-1600.jpg",
+        "sha256": "adca7e265010ebfdc80abf7fdbe6f9fc2588fbd138e380c0d2eaad352d50aa82",
+        "bytes": 290469,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "05-Red-TH",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "library-en-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/06-Child-Library-Preview-EN-ImageIO.png",
+        "sha256": "596e538941fbf9ac467ce8ba5ef51ecf2dbd34cb3b1f9ad95efc97322a53b12e",
+        "bytes": 1129031,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/library-en-800.jpg",
+        "sha256": "1b7f8922a2724d8637ac80d6f3a52cad9e3822a73be9bb9b3ffe29897bd69f92",
+        "bytes": 46990,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "06-Child-Library-Preview-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "library-en-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/06-Child-Library-Preview-EN-ImageIO.png",
+        "sha256": "596e538941fbf9ac467ce8ba5ef51ecf2dbd34cb3b1f9ad95efc97322a53b12e",
+        "bytes": 1129031,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/library-en-1600.jpg",
+        "sha256": "d7828fdae365ef4fc5214c932f25c52a15471539c7254a33fd839187fc95e110",
+        "bytes": 136046,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "06-Child-Library-Preview-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "library-th-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/07-Child-Library-Preview-TH-ImageIO.png",
+        "sha256": "cefd460957345cb2e8506ef17c3b05343564fed35d363e4adf173d7dd02fc482",
+        "bytes": 1115873,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/library-th-800.jpg",
+        "sha256": "f6f159d0b3b3d3b72b4b72be9ec5b130c6d651df267dd6496ff038f372c626ff",
+        "bytes": 46657,
+        "width": 800,
+        "height": 368,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "07-Child-Library-Preview-TH",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "library-th-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Screen02/Normalized/07-Child-Library-Preview-TH-ImageIO.png",
+        "sha256": "cefd460957345cb2e8506ef17c3b05343564fed35d363e4adf173d7dd02fc482",
+        "bytes": 1115873,
+        "width": 2622,
+        "height": 1206,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/library-th-1600.jpg",
+        "sha256": "04f0fbf6ad76dec8e11847d4751bc0618d7ee309cd201ab83e72cc7d5818da05",
+        "bytes": 132277,
+        "width": 1600,
+        "height": 736,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPhone",
+      "slot": "07-Child-Library-Preview-TH",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPhone/Native-Input-Rows.json",
+      "approvedManifestSHA256": "dc787939f01ed8384b24908f34884c62e32087acb7b1e037acab61219d7a7354"
+    },
+    {
+      "filename": "shelf-ipad-en-800.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPad13/Screen02/Normalized/01-Shelf-EN-ImageIO.png",
+        "sha256": "83f8a262294787ab22fb370d67b8d1f4ddc7723b211c8bc080a5a52c466bfbc8",
+        "bytes": 8464216,
+        "width": 2752,
+        "height": 2064,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/shelf-ipad-en-800.jpg",
+        "sha256": "4158b1ff72167620b747c0340f70d2a68b3b080a2ddc2d2455cb4a381fd06597",
+        "bytes": 204452,
+        "width": 800,
+        "height": 600,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 800,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPad13",
+      "slot": "01-Shelf-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPad13/Native-Input-Rows.json",
+      "approvedManifestSHA256": "5b24d0adf49418647b64b899dc3452f9ce1716ea7f1357ba8f98076857a61e9f"
+    },
+    {
+      "filename": "shelf-ipad-en-1600.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPad13/Screen02/Normalized/01-Shelf-EN-ImageIO.png",
+        "sha256": "83f8a262294787ab22fb370d67b8d1f4ddc7723b211c8bc080a5a52c466bfbc8",
+        "bytes": 8464216,
+        "width": 2752,
+        "height": 2064,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/shelf-ipad-en-1600.jpg",
+        "sha256": "0f3317e24cfb0e935db61f6f42f8f1394425dacc39884eb2c559166df41a10ec",
+        "bytes": 655259,
+        "width": 1600,
+        "height": 1200,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1600,
+        "format": "jpeg",
+        "quality": 85,
+        "chromaSubsampling": "4:4:4",
+        "crop": false
+      },
+      "kind": "native-simulator-screenshot",
+      "family": "iPad13",
+      "slot": "01-Shelf-EN",
+      "approvedManifestPath": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Final-Marketing-0.7.8-Campout-Sets-20261010/iPad13/Native-Input-Rows.json",
+      "approvedManifestSHA256": "5b24d0adf49418647b64b899dc3452f9ce1716ea7f1357ba8f98076857a61e9f"
+    },
+    {
+      "filename": "forest.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Marketing-0.7.8-Disney-Five-Panel-Proof-01/Forest-Camp-Moon-Imagegen-02.png",
+        "sha256": "a792a5d9aa989e0d91d11623e30f0970d11929cd9e9740d0d5cd6d9babd53585",
+        "bytes": 2602107,
+        "width": 1902,
+        "height": 827,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/forest.jpg",
+        "sha256": "bdad5448af74444151e6416c78b23b22175bd97827f6326d151e64342d307647",
+        "bytes": 305949,
+        "width": 1902,
+        "height": 827,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1902,
+        "format": "jpeg",
+        "quality": 87,
+        "crop": false
+      },
+      "kind": "approved-existing-marketing-illustration"
+    },
+    {
+      "filename": "forest-small.jpg",
+      "source": {
+        "path": "/Users/ponddmini/Documents/Codex/2026-10-09/task/Marketing-0.7.8-Disney-Five-Panel-Proof-01/Forest-Camp-Moon-Imagegen-02.png",
+        "sha256": "a792a5d9aa989e0d91d11623e30f0970d11929cd9e9740d0d5cd6d9babd53585",
+        "bytes": 2602107,
+        "width": 1902,
+        "height": 827,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/forest-small.jpg",
+        "sha256": "191eec1f65af16bfc3c62e9ef11fa77b07430a0b53a5ec8a5d2a1b5bda344a33",
+        "bytes": 104527,
+        "width": 1000,
+        "height": 435,
+        "format": "jpeg",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 1000,
+        "format": "jpeg",
+        "quality": 87,
+        "crop": false
+      },
+      "kind": "approved-existing-marketing-illustration"
+    },
+    {
+      "filename": "red-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/ProductionAssets/Woodland/References/child-honey-full-reference.png",
+        "sha256": "ddba5870cc1f5e1c85b1224632aa2bf210831543b15825b672caea9dabe3664b",
+        "bytes": 1311204,
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/red-primary.png",
+        "sha256": "3de862270638be62caba7bb4faad121c7acb8211847c8edec02d1aa126e4a554",
+        "bytes": 105459,
+        "width": 320,
+        "height": 320,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "red",
+      "assetID": "child-honey-full-reference",
+      "role": "primary",
+      "sourceKind": "existing original production reference cutout, unretouched; not tracked at HEAD"
+    },
+    {
+      "filename": "golden-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/GoldenFinal_tortoise_standing_right.imageset/tortoise_standing_right.png",
+        "sha256": "5e43a58a0e73a21476b233c4dfe0f30f827d2e8c47b2d47d3955c0c063d0f7c2",
+        "bytes": 2526488,
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/golden-primary.png",
+        "sha256": "1eeedd6085da99d360ab096eddcfe6428951091de6b3e320e7e6c9c299060bf9",
+        "bytes": 104058,
+        "width": 320,
+        "height": 213,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "golden",
+      "assetID": "GoldenFinal_tortoise_standing_right",
+      "role": "primary",
+      "sourceKind": "original app asset; registered static-entry reference"
+    },
+    {
+      "filename": "golden-hare.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/GoldenFinal_hare_upright_right.imageset/hare_upright_right.png",
+        "sha256": "1b6598d75e5e9708b4456f68c87b4d685daece116a02eb603a4dea42bbc98ef4",
+        "bytes": 1047592,
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/golden-hare.png",
+        "sha256": "b4196625fe57e307c1f2bf7ac2a19a050edc3bfc1894b9046162de5c31877598",
+        "bytes": 88607,
+        "width": 320,
+        "height": 320,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "golden",
+      "assetID": "GoldenFinal_hare_upright_right",
+      "role": "essential-companion",
+      "sourceKind": "original app asset; registered static-entry reference"
+    },
+    {
+      "filename": "pigs-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/PigsPigPip.imageset/PigsPigPip.png",
+        "sha256": "e2dd2e6e6235909157e79ac6c44c1f309d4e41841d56a1f4c0e6a80835c2eb26",
+        "bytes": 468604,
+        "width": 530,
+        "height": 724,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/pigs-primary.png",
+        "sha256": "090beeba0f6fc7075c0fbeaf7e5fad471e3083a336b5362b56397d7ab6ad4df1",
+        "bytes": 196793,
+        "width": 320,
+        "height": 437,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "pigs",
+      "assetID": "PigsPigPip",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "duckling-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/DucklingPuddle.imageset/DucklingPuddle.png",
+        "sha256": "5c182f57e65d81b881570a8eeb85615747b2a4ec269834af32bb13170f247dc6",
+        "bytes": 746933,
+        "width": 570,
+        "height": 768,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/duckling-primary.png",
+        "sha256": "f31c935ea0914ad2ac012e20b543b553266a4703b1289a92a54f0beaa2c08b9a",
+        "bytes": 177969,
+        "width": 320,
+        "height": 431,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "duckling",
+      "assetID": "DucklingPuddle",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "goldilocks-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/GoldilocksActorStanding.imageset/GoldilocksActorStanding.png",
+        "sha256": "4dbd85b78226dca0e3fba7ca37a3ad69255e675a15c033aed72833224cb5f901",
+        "bytes": 266219,
+        "width": 425,
+        "height": 448,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/goldilocks-primary.png",
+        "sha256": "2f905073e806b0bac7a88bb96c0c7cf0aee581834088ef8ebf877f3a4723754d",
+        "bytes": 169804,
+        "width": 320,
+        "height": 337,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "goldilocks",
+      "assetID": "GoldilocksActorStanding",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "lionMouse-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/LionMouseLionStanding.imageset/LionMouseLionStanding.png",
+        "sha256": "7fe11e01753708c9a00d678c736584b98138d6522d64e4c599c48081ab144ec3",
+        "bytes": 1702031,
+        "width": 1479,
+        "height": 1063,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/lionMouse-primary.png",
+        "sha256": "f5753668ad377677638173f154d15de0879c70bcf92deaf005459cbfd4986402",
+        "bytes": 111111,
+        "width": 320,
+        "height": 230,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "lionMouse",
+      "assetID": "LionMouseLionStanding",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "lionMouse-mouse.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/LionMouseMouseStanding.imageset/LionMouseMouseStanding.png",
+        "sha256": "0409ece2666103fef79e850d5b6746eb2b2d9c89b918b86ecf8decac9299ee58",
+        "bytes": 2202171,
+        "width": 1536,
+        "height": 1024,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/lionMouse-mouse.png",
+        "sha256": "b6fae4e872b5bd6e50b8c2ff9c6463c4d5368cebc41e557005ab50785407e0b1",
+        "bytes": 74918,
+        "width": 320,
+        "height": 213,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "lionMouse",
+      "assetID": "LionMouseMouseStanding",
+      "role": "optional-companion",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "redHen-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/RedHenRubyStanding.imageset/RedHenRubyStanding.png",
+        "sha256": "418cc11b47b869e9be3f2363924a4ab9236d59aad8d569abb5dd5638efaef9dd",
+        "bytes": 2526228,
+        "width": 1024,
+        "height": 1536,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/redHen-primary.png",
+        "sha256": "577e9e240cb5bd2f71c0f009be4c603733370d58d081ae5576ab22a3b4e9914e",
+        "bytes": 249306,
+        "width": 320,
+        "height": 480,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "redHen",
+      "assetID": "RedHenRubyStanding",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "billyGoats-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/BillyGoatsLittleStanding.imageset/BillyGoatsLittleStanding.png",
+        "sha256": "d4c77342c91993952d7fd6729e4801324c634b419428b595e0cc0d47a2f1dc9b",
+        "bytes": 2124911,
+        "width": 1024,
+        "height": 1536,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/billyGoats-primary.png",
+        "sha256": "d61e2f6c9d350ab0cd8608ceb4021a932209fc233df4a18b8b75785090d097f3",
+        "bytes": 196706,
+        "width": 320,
+        "height": 480,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "billyGoats",
+      "assetID": "BillyGoatsLittleStanding",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "elves-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/ElvesTealDressed.imageset/ElvesTealDressed.png",
+        "sha256": "681a8417168c1091e6adef6d195aa6b03d75c9cd8be26ad29acaf32d1064fde4",
+        "bytes": 2567643,
+        "width": 1024,
+        "height": 1536,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/elves-primary.png",
+        "sha256": "d931f7e5288fdf56f1db1de70a883854022246f98fdc760863a2ad5d77c63d71",
+        "bytes": 248913,
+        "width": 320,
+        "height": 480,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "elves",
+      "assetID": "ElvesTealDressed",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "elves-shoemaker.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/ElvesShoemakerStanding.imageset/ElvesShoemakerStanding.png",
+        "sha256": "7c09a3d17a33cc418cb7a448c0f1e227fdebacc7e387ba6134877bd13ef5dc3c",
+        "bytes": 2281517,
+        "width": 1024,
+        "height": 1536,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/elves-shoemaker.png",
+        "sha256": "af4c2aa8872c79d883406b656358d2c0a3852a58df3e2a2641d8e6dbd9f1af88",
+        "bytes": 196402,
+        "width": 320,
+        "height": 480,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "elves",
+      "assetID": "ElvesShoemakerStanding",
+      "role": "optional-companion",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "gingerbread-primary.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Oonmoon/Assets.xcassets/GingerbreadWaiting.imageset/GingerbreadWaiting.png",
+        "sha256": "fb0fc49d5393308ca3f3a5f35818fbeb7d4d14396ac5ea9dc9e08396d7f87328",
+        "bytes": 2537659,
+        "width": 1024,
+        "height": 1536,
+        "format": "png",
+        "alpha": true
+      },
+      "output": {
+        "path": "assets/gingerbread-primary.png",
+        "sha256": "66a8a28bd7e5eeaa3e0df496455213f9889bb9ffb7e6a3b449ab95f0a5f96a63",
+        "bytes": 241343,
+        "width": 320,
+        "height": 480,
+        "format": "png",
+        "alpha": true
+      },
+      "transform": {
+        "operation": "proportional-resize-full-canvas",
+        "width": 320,
+        "format": "png",
+        "alphaPreserved": true,
+        "crop": false
+      },
+      "kind": "original-character-cutout",
+      "bookID": "gingerbread",
+      "assetID": "GingerbreadWaiting",
+      "role": "primary",
+      "sourceKind": "original current app asset"
+    },
+    {
+      "filename": "favicon.png",
+      "source": {
+        "path": "/Users/ponddmini/Desktop/Oonmoon/Assets/IconMaster/WindowToDreams-Approved-v1.png",
+        "sha256": "bda49ebee14f5bb5fb19f8d082cf543a098fc30359d35d02c140176503625a9f",
+        "bytes": 2255496,
+        "width": 1254,
+        "height": 1254,
+        "format": "png",
+        "alpha": false
+      },
+      "output": {
+        "path": "assets/favicon.png",
+        "sha256": "812926405e38780759c5261d62c400c2e2be702a5946d6379abdd82d0085af86",
+        "bytes": 40008,
+        "width": 128,
+        "height": 128,
+        "format": "png",
+        "alpha": false
+      },
+      "transform": {
+        "operation": "proportional-resize",
+        "width": 128,
+        "format": "png",
+        "crop": false
+      },
+      "kind": "approved-app-icon"
+    }
+  ],
+  "summary": {
+    "imageFiles": 32,
+    "combinedImageBytes": 5748588,
+    "nativeScreenshotFiles": 16,
+    "originalCharacterFiles": 13,
+    "sourceHashesMatchedApprovedPins": true,
+    "proportionalSizingVerified": true,
+    "alphaPreservationVerified": true
+  }
+}
