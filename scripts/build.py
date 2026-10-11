@@ -82,7 +82,7 @@ def render(config):
                     heading="Platform privacy notices" if lang=="en" else "ข้อมูลความเป็นส่วนตัวของผู้ให้บริการ"
                     labels=["Apple Privacy Policy","App Store &amp; Privacy","GitHub Privacy Statement"] if lang=="en" else ["นโยบายความเป็นส่วนตัวของ Apple","App Store และความเป็นส่วนตัว","ประกาศความเป็นส่วนตัวของ GitHub"]
                     notices=f'<section class="policy-section"><h2>{heading}</h2><p><a href="https://www.apple.com/legal/privacy/en-ww/">{labels[0]}</a> · <a href="https://www.apple.com/legal/privacy/data/en/app-store/">{labels[1]}</a> · <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">{labels[2]}</a></p></section>'
-                    body+=f'<section class="paper"><div class="wrap reading-width"><aside class="draft-note"><strong>{d["draft"]}</strong><p>{d["draftText"]}</p></aside>{sections}{notices}</div></section>'
+                    body+=f'<section class="paper"><div class="wrap reading-width"><aside class="draft-note"><strong>{d["privacySummary"]}</strong><p>{d["privacySummaryText"]}</p></aside>{sections}{notices}</div></section>'
             directory=ROOT/source;directory.mkdir(parents=True,exist_ok=True)
             (directory/'index.html').write_text(head(lang,page,source,d['titles'][i],d['descriptions'][i])+header(lang,page,source)+prefix+body+'</main>'+footer(lang,source)+'</body></html>',encoding='utf-8')
     d=content['en'];source=''

@@ -16,14 +16,14 @@
       "Features — Oonmoon",
       "Ten classic stories — Oonmoon",
       "Support — Oonmoon",
-      "Privacy draft — Oonmoon"
+      "Privacy policy — Oonmoon"
     ],
     "descriptions": [
       "Read, listen and explore ten classic stories with Oonmoon. Thai and English recorded narration, character choices and little moments of discovery. Coming soon.",
       "Explore Oonmoon’s Thai and English narration, character selection, tap interactions and automatic page turning.",
       "Meet Oonmoon’s ten classic stories. Three are included; a one-time full-library unlock covers the other seven and future completed books added to Oonmoon.",
       "Help with Oonmoon storytime, narration, language, library access and local choices. Contact pondd.me@gmail.com.",
-      "Review Oonmoon’s app privacy practices and separate website hosting notes. This policy draft requires owner approval before publication."
+      "Read Oonmoon’s privacy policy: local app choices, offline narration, Apple services, optional support emails and website hosting."
     ],
     "eyebrow": "A little adventure, together",
     "hero": [
@@ -105,14 +105,14 @@
     "emailNote": "Please avoid including a child’s name, photo or other unnecessary personal details. Include the app version, device and a brief description of the issue.",
     "privacyHeading": "Privacy, explained plainly.",
     "privacyIntro": "App practices and website practices are described separately below.",
-    "draft": "Draft for owner review",
-    "draftText": "This local preview is not an approved final privacy policy. The legal operator, effective date, intended markets, rights procedures, support handling and hosting details still need owner confirmation. Both English and Thai wording require approval before publication.",
     "footer": "Made for moments together.",
     "footerStatus": "Oonmoon is coming soon.",
     "credits": "iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Apple product names are used to describe design intent; no endorsement is implied.",
     "seeScreen": "Open the full landscape screenshot",
-    "previewNotice": "Website preview • privacy policy awaiting owner approval",
-    "backHome": "Back to storytime"
+    "previewNotice": "Privacy policy updated 11 October 2026",
+    "backHome": "Back to storytime",
+    "privacySummary": "Privacy policy · Oonmoon 1.0",
+    "privacySummaryText": "Last updated 11 October 2026. No advertisements, embedded third-party analytics or user tracking. Reading choices stay on your device; Apple services, optional support emails and website hosting are explained below."
   },
   "th": {
     "name": "Oonmoon",
@@ -131,14 +131,14 @@
       "ฟีเจอร์ — Oonmoon",
       "นิทานคลาสสิก 10 เรื่อง — Oonmoon",
       "ช่วยเหลือ — Oonmoon",
-      "ร่างนโยบายความเป็นส่วนตัว — Oonmoon"
+      "นโยบายความเป็นส่วนตัว — Oonmoon"
     ],
     "descriptions": [
       "อ่าน ฟัง และสำรวจนิทานคลาสสิก 10 เรื่องกับ Oonmoon พร้อมเสียงบรรยายภาษาไทยและภาษาอังกฤษที่บันทึกไว้ เลือกตัวละครและค้นพบสิ่งเล็ก ๆ ในภาพ พบกันเร็ว ๆ นี้",
       "รู้จักฟีเจอร์ของ Oonmoon ทั้งเสียงบรรยายภาษาไทยและภาษาอังกฤษ การเลือกตัวละคร การแตะโต้ตอบกับภาพ และการเปลี่ยนหน้าอัตโนมัติ",
       "พบกับนิทานคลาสสิก 10 เรื่องใน Oonmoon รวมสามเรื่องแรกไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่องและนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต",
       "ความช่วยเหลือเกี่ยวกับการอ่านนิทาน เสียงบรรยาย ภาษา สิทธิ์อ่าน และตัวเลือกที่บันทึกไว้ในอุปกรณ์ ติดต่อ pondd.me@gmail.com",
-      "อ่านข้อมูลความเป็นส่วนตัวของแอป Oonmoon และข้อมูลการโฮสต์เว็บไซต์ที่แยกจากกัน ฉบับร่างนี้ต้องได้รับอนุมัติจากเจ้าของก่อนเผยแพร่"
+      "อ่านนโยบายความเป็นส่วนตัวของอุ่นมูนเกี่ยวกับตัวเลือกในอุปกรณ์ เสียงบรรยายออฟไลน์ บริการของ Apple อีเมลขอความช่วยเหลือที่เลือกส่ง และการโฮสต์เว็บไซต์"
     ],
     "eyebrow": "การผจญภัยเล็ก ๆ ที่ได้ใช้เวลาด้วยกัน",
     "hero": [
@@ -220,13 +220,13 @@
     "emailNote": "โปรดหลีกเลี่ยงการส่งชื่อ รูปภาพ หรือข้อมูลส่วนตัวที่ไม่จำเป็นของเด็ก ระบุรุ่นแอป รุ่นอุปกรณ์ และอธิบายปัญหาสั้น ๆ",
     "privacyHeading": "ความเป็นส่วนตัว อธิบายให้เข้าใจง่าย",
     "privacyIntro": "แนวทางของแอปและเว็บไซต์อธิบายแยกกันด้านล่าง",
-    "draft": "ฉบับร่างสำหรับเจ้าของตรวจทาน",
-    "draftText": "ตัวอย่างเว็บไซต์ในเครื่องนี้ยังไม่ใช่นโยบายความเป็นส่วนตัวฉบับสมบูรณ์ที่ได้รับอนุมัติ เจ้าของต้องยืนยันผู้ดำเนินการตามกฎหมาย วันที่มีผลใช้บังคับ ประเทศที่ให้บริการ ขั้นตอนดำเนินการตามคำขอด้านความเป็นส่วนตัว การจัดการข้อมูลที่ส่งถึงฝ่ายช่วยเหลือ และรายละเอียดการโฮสต์เว็บไซต์ ข้อความภาษาไทยและภาษาอังกฤษต้องได้รับอนุมัติก่อนเผยแพร่",
     "footer": "สำหรับช่วงเวลาที่ได้อยู่ด้วยกัน",
     "footerStatus": "พบกับ Oonmoon เร็ว ๆ นี้",
     "credits": "iPhone และ iPad เป็นเครื่องหมายการค้าของ Apple Inc. ที่จดทะเบียนในสหรัฐอเมริกาและประเทศอื่น ๆ App Store เป็นเครื่องหมายบริการของ Apple Inc. ใช้ชื่อผลิตภัณฑ์ Apple เพื่ออธิบายแนวทางการออกแบบ โดยไม่ได้สื่อถึงการรับรองจาก Apple",
     "seeScreen": "เปิดภาพหน้าจอแนวนอนขนาดเต็ม",
-    "previewNotice": "เว็บไซต์ตัวอย่าง • นโยบายความเป็นส่วนตัวรอเจ้าของอนุมัติ",
-    "backHome": "กลับไปช่วงเวลาเล่านิทาน"
+    "previewNotice": "ปรับปรุงนโยบายความเป็นส่วนตัว 11 ตุลาคม 2026",
+    "backHome": "กลับไปช่วงเวลาเล่านิทาน",
+    "privacySummary": "นโยบายความเป็นส่วนตัว · อุ่นมูน 1.0",
+    "privacySummaryText": "ปรับปรุงล่าสุด 11 ตุลาคม 2026 ไม่มีโฆษณา ระบบวิเคราะห์จากผู้ให้บริการภายนอกที่ฝังในแอป หรือการติดตามผู้ใช้ ตัวเลือกการอ่านเก็บไว้ในอุปกรณ์ ส่วนบริการของ Apple อีเมลขอความช่วยเหลือที่เลือกส่ง และการโฮสต์เว็บไซต์อธิบายไว้ด้านล่าง"
   }
 }

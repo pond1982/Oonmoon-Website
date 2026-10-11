@@ -2,20 +2,24 @@
   "en": {
     "privacy": [
       {
-        "heading": "Privacy notice — owner-review draft",
-        "text": "This draft describes the audited Oonmoon 0.7.8 app and the planned static website. It is not yet an approved final policy. The legal operator, effective date, applicable markets and privacy rights, and final English and Thai wording still need the owner's confirmation before release. Privacy questions can be sent to pondd.me@gmail.com. Owner access to Apple-provided app analytics, sales/download reports and diagnostics also remains unconfirmed; these platform reports are separate from embedded app analytics."
+        "heading": "About this privacy policy",
+        "text": "This policy describes Oonmoon 1.0 and this website. Oonmoon is published by an individual developer, who personally handles app support and privacy enquiries at pondd.me@gmail.com. The app does not collect or transmit personal information or usage data to a developer-operated server. Optional support emails and services provided by Apple and GitHub are described separately below."
       },
       {
         "heading": "Preferences saved on your device",
         "text": "Oonmoon stores character appearance and selection, reading language, sound choices, bookmarks and story-completion preferences locally. Existing character names from earlier setup may also remain in local preferences. The current app implementation does not send these preferences to a developer-operated server. Device backups are a separate matter."
       },
       {
-        "heading": "Accounts, tracking and permissions",
-        "text": "The audited Release app has no Oonmoon sign-in account, advertising, analytics, tracking or photo-upload feature. It does not request access to the camera, microphone, photo library, contacts or location. Its privacy manifest declares no tracking or developer-collected data. These technical findings do not replace the owner's final policy approval."
+        "heading": "Accounts, advertising, analytics and permissions",
+        "text": "Oonmoon has no sign-in account, advertisements, embedded third-party analytics, user tracking or photo-upload feature. It has no developer-operated backend for collecting user information. The app does not request access to the camera, microphone, photo library, contacts or location. It does not upload device identifiers or reading activity to the developer."
       },
       {
-        "heading": "Recorded narration",
-        "text": "English and Thai narration recordings are bundled with the app and played locally, including offline playback for stories you can access. Reading does not send text, names or audio to a narration provider or generate a new voice recording. Purchases and restoring access may still need a connection to Apple."
+        "heading": "Apple-provided app analytics",
+        "text": "The developer uses aggregate App Analytics reports that Apple provides through App Store Connect. These Apple platform reports are separate from analytics software embedded in the app. Oonmoon does not include Google Analytics or another third-party analytics SDK, and it does not send character choices, names or reading progress to the developer for analytics. Apple’s own privacy policies govern its services."
+      },
+      {
+        "heading": "Narration prepared in advance",
+        "text": "English and Thai narration recordings are prepared in advance, bundled with the app and played locally, including offline playback for stories you can access. The app does not call an online text-to-speech service or create new narration during use. Reading does not upload text, names, voice recordings or other user information to a narration provider. Purchases and restoring access may still need a connection to Apple."
       },
       {
         "heading": "Purchases handled by Apple",
@@ -26,8 +30,8 @@
         "text": "In the grown-ups area, Delete character & local choices removes the app's saved character preferences, language and sound choices, and bookmarks on that device. It does not erase Apple purchase records, device backups or support emails. Backup behavior depends on your device and Apple settings; no promise is made here about deleting information from backups."
       },
       {
-        "heading": "When you email support",
-        "text": "If you choose to email pondd.me@gmail.com, your email address, message and any attachments you send are handled through email services, separately from the app. Please send only the details needed to explain the issue. The support mailbox's retention practices and the owner's handling of privacy requests still need confirmation."
+        "heading": "When a grown-up emails support",
+        "text": "A grown-up may choose to email pondd.me@gmail.com. The individual developer handles these emails personally and uses the sender’s email address, message and any attachments only to help with that request. The developer does not forward support emails to other people or use their contents for marketing. Delivery and storage involve Gmail and the sender’s email service, which may process the information under their own privacy policies. Support emails are deleted one year after the issue is resolved. Please send only necessary details and avoid children’s names or photos, passwords and payment details. Emailing support is optional and separate from using the app. You may also use this address for privacy enquiries or requests concerning support messages."
       },
       {
         "heading": "Website language preference",
@@ -35,7 +39,7 @@
       },
       {
         "heading": "Website hosting is separate",
-        "text": "The website is prepared for GitHub Pages hosting. GitHub's processing is separate from the Oonmoon app and is governed by GitHub's own policies. Hosting-log details, retention and the owner's access to hosting data have not yet been confirmed. The app's local-storage practices should not be read as a promise that website hosting processes no visitor information."
+        "text": "This website is hosted on GitHub Pages. When you visit, GitHub may process standard website request information, such as your IP address, request time and request details, including access logs, under GitHub’s own policies. This processing is separate from the Oonmoon app. Hosting-log retention and storage or processing locations are determined by GitHub; the developer has not verified a specific country or region. The app’s local-storage practices do not mean that website hosting processes no visitor information."
       }
     ],
     "support": [
@@ -64,20 +68,24 @@
   "th": {
     "privacy": [
       {
-        "heading": "ประกาศความเป็นส่วนตัว — ฉบับร่างสำหรับเจ้าของตรวจทาน",
-        "text": "ฉบับร่างนี้อธิบายแอปอุ่นมูนรุ่น 0.7.8 ที่ตรวจสอบแล้ว และเว็บไซต์แบบสแตติกที่เตรียมไว้ ยังไม่ใช่นโยบายฉบับสมบูรณ์ที่ได้รับอนุมัติ เจ้าของต้องยืนยันผู้ดำเนินการตามกฎหมาย วันที่มีผลใช้บังคับ ประเทศที่ให้บริการ สิทธิด้านความเป็นส่วนตัวที่เกี่ยวข้อง และข้อความภาษาไทยกับภาษาอังกฤษก่อนเปิดให้บริการ ติดต่อสอบถามเรื่องความเป็นส่วนตัวได้ที่ pondd.me@gmail.com การเข้าถึงข้อมูลวิเคราะห์แอป รายงานยอดขายหรือการดาวน์โหลด และข้อมูลวินิจฉัยที่ Apple จัดให้โดยเจ้าของยังไม่ได้รับการยืนยัน รายงานจากแพลตฟอร์มเหล่านี้แยกจากระบบวิเคราะห์ที่ฝังในแอป"
+        "heading": "เกี่ยวกับนโยบายความเป็นส่วนตัวนี้",
+        "text": "นโยบายนี้อธิบายแอปอุ่นมูนรุ่น 1.0 และเว็บไซต์นี้ ผู้เผยแพร่อุ่นมูนเป็นบุคคลและจัดการเรื่องความช่วยเหลือกับคำถามด้านความเป็นส่วนตัวด้วยตนเอง ติดต่อได้ที่ pondd.me@gmail.com แอปไม่เก็บรวบรวมหรือส่งข้อมูลส่วนบุคคลหรือข้อมูลการใช้งานไปยังเซิร์ฟเวอร์ของผู้พัฒนา อีเมลขอความช่วยเหลือที่ผู้ใช้เลือกส่ง และบริการของ Apple กับ GitHub อธิบายแยกไว้ด้านล่าง"
       },
       {
         "heading": "ตัวเลือกที่บันทึกไว้ในอุปกรณ์",
         "text": "อุ่นมูนบันทึกรูปลักษณ์และตัวเลือกของตัวละคร ภาษาของนิทาน การตั้งค่าเสียง หน้าที่อ่านค้างไว้ และสถานะการอ่านจบไว้ในอุปกรณ์ ชื่อตัวละครที่เคยตั้งไว้ในรุ่นก่อนอาจยังอยู่ในข้อมูลตัวเลือกด้วย การทำงานของแอปปัจจุบันไม่ได้ส่งข้อมูลเหล่านี้ไปยังเซิร์ฟเวอร์ที่ผู้พัฒนาเป็นผู้ดำเนินการ ส่วนการสำรองข้อมูลของอุปกรณ์เป็นอีกเรื่องหนึ่ง"
       },
       {
-        "heading": "บัญชีผู้ใช้ การติดตาม และสิทธิ์เข้าถึง",
-        "text": "แอปรุ่น Release ที่ตรวจสอบไม่มีบัญชีสำหรับเข้าสู่ระบบอุ่นมูน โฆษณา ระบบวิเคราะห์การใช้งาน การติดตาม หรือการอัปโหลดภาพถ่าย แอปไม่ขอเข้าถึงกล้อง ไมโครโฟน คลังภาพ รายชื่อผู้ติดต่อ หรือตำแหน่งที่ตั้ง ไฟล์ประกาศความเป็นส่วนตัวของแอประบุว่าไม่มีการติดตามหรือการเก็บข้อมูลโดยผู้พัฒนา ข้อค้นพบทางเทคนิคนี้ไม่ทดแทนการอนุมัตินโยบายฉบับสมบูรณ์โดยเจ้าของ"
+        "heading": "บัญชีผู้ใช้ โฆษณา การวิเคราะห์ และสิทธิ์เข้าถึง",
+        "text": "อุ่นมูนไม่มีบัญชีสำหรับเข้าสู่ระบบ ไม่มีโฆษณา ระบบวิเคราะห์การใช้งานจากผู้ให้บริการภายนอกที่ฝังในแอป การติดตามผู้ใช้ หรือฟีเจอร์อัปโหลดภาพถ่าย แอปไม่มีระบบหลังบ้านของผู้พัฒนาสำหรับเก็บข้อมูลผู้ใช้ และไม่ขอเข้าถึงกล้อง ไมโครโฟน คลังภาพ รายชื่อผู้ติดต่อ หรือตำแหน่งที่ตั้ง แอปไม่อัปโหลดตัวระบุอุปกรณ์หรือกิจกรรมการอ่านไปยังผู้พัฒนา"
       },
       {
-        "heading": "เสียงบรรยายที่บันทึกไว้แล้ว",
-        "text": "ไฟล์เสียงบรรยายภาษาไทยและภาษาอังกฤษมาพร้อมกับแอปและเล่นในอุปกรณ์ รวมถึงเล่นแบบออฟไลน์สำหรับนิทานที่คุณมีสิทธิ์อ่าน การอ่านนิทานไม่ส่งข้อความ ชื่อ หรือเสียงไปยังผู้ให้บริการเสียงบรรยาย และไม่สร้างไฟล์เสียงใหม่ การซื้อและการกู้คืนสิทธิ์อ่านอาจยังต้องเชื่อมต่อกับ Apple"
+        "heading": "ข้อมูลวิเคราะห์ภาพรวมที่ Apple จัดให้",
+        "text": "ผู้พัฒนาใช้รายงานข้อมูลภาพรวมจาก App Analytics ที่ Apple จัดให้ผ่าน App Store Connect รายงานจากแพลตฟอร์ม Apple เหล่านี้แยกจากซอฟต์แวร์วิเคราะห์การใช้งานที่ฝังในแอป อุ่นมูนไม่มี Google Analytics หรือ SDK วิเคราะห์การใช้งานจากผู้ให้บริการภายนอกอื่น ๆ และไม่ส่งตัวเลือกตัวละคร ชื่อ หรือความคืบหน้าการอ่านไปยังผู้พัฒนาเพื่อวิเคราะห์ บริการของ Apple อยู่ภายใต้นโยบายความเป็นส่วนตัวของ Apple เอง"
+      },
+      {
+        "heading": "เสียงบรรยายที่จัดเตรียมไว้ล่วงหน้า",
+        "text": "ไฟล์เสียงบรรยายภาษาไทยและภาษาอังกฤษจัดเตรียมไว้ล่วงหน้า มาพร้อมกับแอป และเล่นในอุปกรณ์ รวมถึงเล่นแบบออฟไลน์สำหรับนิทานที่คุณมีสิทธิ์อ่าน แอปไม่เรียกบริการสร้างเสียงออนไลน์หรือสร้างเสียงบรรยายใหม่ระหว่างใช้งาน การอ่านนิทานไม่อัปโหลดข้อความ ชื่อ เสียงที่บันทึก หรือข้อมูลผู้ใช้อื่น ๆ ไปยังผู้ให้บริการเสียงบรรยาย การซื้อและการกู้คืนสิทธิ์อ่านอาจยังต้องเชื่อมต่อกับ Apple"
       },
       {
         "heading": "การซื้อดำเนินการผ่าน Apple",
@@ -88,8 +96,8 @@
         "text": "ในเมนูสำหรับผู้ใหญ่ เลือก ลบตัวละครและตัวเลือกในอุปกรณ์ เพื่อลบตัวเลือกของตัวละคร ภาษา การตั้งค่าเสียง และหน้าที่อ่านค้างไว้ในอุปกรณ์นั้น การลบนี้ไม่ลบประวัติการซื้อของ Apple ข้อมูลสำรองของอุปกรณ์ หรืออีเมลที่ส่งถึงฝ่ายช่วยเหลือ การสำรองข้อมูลขึ้นอยู่กับอุปกรณ์และการตั้งค่าของ Apple จึงไม่มีคำรับรองในหน้านี้ว่าจะลบข้อมูลออกจากข้อมูลสำรองด้วย"
       },
       {
-        "heading": "เมื่อคุณส่งอีเมลขอความช่วยเหลือ",
-        "text": "หากคุณเลือกส่งอีเมลไปที่ pondd.me@gmail.com ที่อยู่อีเมล ข้อความ และไฟล์แนบที่คุณส่งจะถูกจัดการผ่านบริการอีเมล แยกจากการทำงานของแอป โปรดส่งเฉพาะรายละเอียดที่จำเป็นต่อการอธิบายปัญหา แนวทางการเก็บรักษาข้อมูลในกล่องจดหมายและการดำเนินการตามคำขอด้านความเป็นส่วนตัวโดยเจ้าของยังต้องได้รับการยืนยัน"
+        "heading": "เมื่อผู้ใหญ่ส่งอีเมลขอความช่วยเหลือ",
+        "text": "ผู้ใหญ่สามารถเลือกส่งอีเมลไปที่ pondd.me@gmail.com ผู้เผยแพร่เป็นบุคคลและจัดการอีเมลด้วยตนเอง โดยใช้ที่อยู่อีเมลของผู้ส่ง ข้อความ และไฟล์แนบเพื่อให้ความช่วยเหลือเกี่ยวกับคำขอนั้นเท่านั้น ผู้เผยแพร่ไม่ส่งต่ออีเมลขอความช่วยเหลือให้บุคคลอื่นและไม่ใช้ข้อมูลจากอีเมลเพื่อการตลาด การรับส่งและเก็บอีเมลใช้บริการ Gmail และบริการอีเมลของผู้ส่ง ซึ่งอาจประมวลผลข้อมูลตามนโยบายความเป็นส่วนตัวของผู้ให้บริการ ผู้เผยแพร่จะลบอีเมลขอความช่วยเหลือเมื่อครบหนึ่งปีหลังจากแก้ไขเรื่องนั้นแล้ว โปรดส่งเฉพาะรายละเอียดที่จำเป็น และหลีกเลี่ยงชื่อหรือภาพของเด็ก รหัสผ่าน และข้อมูลการชำระเงิน การส่งอีเมลเป็นทางเลือกและแยกจากการใช้งานแอป คุณสามารถใช้ที่อยู่นี้เพื่อสอบถามเรื่องความเป็นส่วนตัวหรือส่งคำขอเกี่ยวกับอีเมลขอความช่วยเหลือได้เช่นกัน"
       },
       {
         "heading": "ตัวเลือกภาษาบนเว็บไซต์",
@@ -97,7 +105,7 @@
       },
       {
         "heading": "บริการโฮสต์เว็บไซต์แยกจากแอป",
-        "text": "เว็บไซต์นี้เตรียมไว้สำหรับโฮสต์บน GitHub Pages การประมวลผลข้อมูลโดย GitHub แยกจากแอปอุ่นมูนและอยู่ภายใต้นโยบายของ GitHub เอง รายละเอียดบันทึกการเข้าถึง ระยะเวลาเก็บรักษา และสิทธิ์ของเจ้าของในการเข้าถึงข้อมูลโฮสต์ยังไม่ได้รับการยืนยัน แนวทางเก็บตัวเลือกไว้ในอุปกรณ์ของแอปจึงไม่ได้หมายความว่าบริการโฮสต์เว็บไซต์จะไม่ประมวลผลข้อมูลของผู้เข้าชม"
+        "text": "เว็บไซต์นี้โฮสต์บน GitHub Pages เมื่อคุณเข้าชม GitHub อาจประมวลผลข้อมูลคำขอเว็บไซต์ตามปกติ เช่น ที่อยู่ IP เวลาที่ส่งคำขอ และรายละเอียดคำขอ รวมถึงบันทึกการเข้าถึง ภายใต้นโยบายของ GitHub เอง การประมวลผลนี้แยกจากแอปอุ่นมูน ระยะเวลาเก็บบันทึกการเข้าถึงและสถานที่จัดเก็บหรือประมวลผลข้อมูลขึ้นอยู่กับ GitHub ผู้พัฒนายังไม่ได้ยืนยันประเทศหรือภูมิภาคที่ใช้จัดเก็บหรือประมวลผลข้อมูลเหล่านี้ การเก็บตัวเลือกของแอปไว้ในอุปกรณ์จึงไม่ได้หมายความว่าบริการโฮสต์เว็บไซต์จะไม่ประมวลผลข้อมูลของผู้เข้าชม"
       }
     ],
     "support": [
