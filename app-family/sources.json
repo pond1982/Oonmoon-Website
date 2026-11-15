@@ -155,5 +155,15 @@
       "websiteUrl": "https://pond1982.github.io/TheAiCompanyWeb/",
       "appStoreUrl": "https://apps.apple.com/gb/app/the-ai-company/id6777710816"
     }
+  ],
+  "websites": [
+    {
+      "name": "Pet 28 Days",
+      "websiteUrl": "https://pond1982.github.io/pet-28-days/"
+    },
+    {
+      "name": "Screenshot Studio",
+      "websiteUrl": "https://pond1982.github.io/screenshot-studio/"
+    }
   ]
 }
