@@ -45,19 +45,19 @@
     "support": [
       {
         "question": "Why can’t I hear the narration?",
-        "answer": "Check your device's volume and audio output, then check Sound in the reader menu. English and Thai recordings are bundled with the app. If a recording cannot be opened, use the retry option; you can still read quietly and turn pages yourself. If the issue continues, email pondd.me@gmail.com with the story, language, app version and device model."
+        "answer": "Check your device's volume and audio output, then check Sound in the reader menu. English, Thai and Mandarin recordings are bundled with the app. If a recording cannot be opened, use the retry option; you can still read quietly and turn pages yourself. If the issue continues, email pondd.me@gmail.com with the story, language, app version and device model."
       },
       {
         "question": "How does automatic page turning work?",
         "answer": "Turn on Auto turn in the reader menu. The next page opens after the current narration finishes successfully. Auto turn is optional; you can keep it off and turn pages yourself. A missing or interrupted recording does not count as completed narration."
       },
       {
-        "question": "Can I switch between Thai and English?",
-        "answer": "Yes. Choose the story language in the app to use the matching captions and recorded narration. The website also has an always-visible English / ไทย switch on every public page and remembers your explicit website choice. The app and website keep their language preferences separately."
+        "question": "Can I switch between English, Thai and Mandarin?",
+        "answer": "Yes. Tap the flag on the bookshelf or in the reader to move between English, Thai and Mandarin captions and recorded narration. The website also has an always-visible English / ไทย switch on every public page and remembers your explicit website choice. The app and website keep their language preferences separately."
       },
       {
         "question": "Which stories are included?",
-        "answer": "Little Red Riding Hood, The Tortoise and the Hare, and The Three Little Pigs are included. A one-time full-library purchase unlocks the other seven completed stories and future completed stories added to Oonmoon. There is no subscription. The app is coming soon; the actual storefront price and listing will be shown when they are available."
+        "answer": "The Tortoise and the Hare, The Three Little Pigs and The Ugly Duckling are included. A one-time full-library purchase unlocks the other seven completed stories and future completed stories added to Oonmoon. There is no subscription. The price is shown in the app before you buy."
       },
       {
         "question": "How do I restore purchases or clear local choices?",
@@ -111,19 +111,19 @@
     "support": [
       {
         "question": "ทำไมไม่ได้ยินเสียงบรรยาย?",
-        "answer": "ตรวจสอบระดับเสียงและอุปกรณ์ที่ใช้เล่นเสียง แล้วตรวจสอบตัวเลือก เสียง ในเมนูของหน้าที่อ่าน ไฟล์เสียงภาษาไทยและภาษาอังกฤษมาพร้อมกับแอป หากเปิดไฟล์เสียงไม่ได้ ให้เลือกลองอีกครั้ง คุณยังอ่านแบบเงียบและเปลี่ยนหน้าเองได้ หากปัญหายังอยู่ ส่งอีเมลไปที่ pondd.me@gmail.com พร้อมชื่อนิทาน ภาษา รุ่นแอป และรุ่นอุปกรณ์"
+        "answer": "ตรวจสอบระดับเสียงและอุปกรณ์ที่ใช้เล่นเสียง แล้วตรวจสอบตัวเลือก เสียง ในเมนูของหน้าที่อ่าน ไฟล์เสียงภาษาไทย อังกฤษ และจีนกลางมาพร้อมกับแอป หากเปิดไฟล์เสียงไม่ได้ ให้เลือกลองอีกครั้ง คุณยังอ่านแบบเงียบและเปลี่ยนหน้าเองได้ หากปัญหายังอยู่ ส่งอีเมลไปที่ pondd.me@gmail.com พร้อมชื่อนิทาน ภาษา รุ่นแอป และรุ่นอุปกรณ์"
       },
       {
         "question": "การเปลี่ยนหน้าอัตโนมัติทำงานอย่างไร?",
         "answer": "เปิด เปลี่ยนหน้าอัตโนมัติ ในเมนูของหน้าที่อ่าน แอปจะเปิดหน้าถัดไปเมื่อเสียงบรรยายของหน้าปัจจุบันเล่นจบสำเร็จ คุณเลือกปิดตัวเลือกนี้และเปลี่ยนหน้าเองได้ ไฟล์เสียงที่เปิดไม่ได้หรือเสียงที่ถูกขัดจังหวะจะไม่นับว่าเล่นบรรยายจบแล้ว"
       },
       {
-        "question": "สลับภาษาไทยกับภาษาอังกฤษได้ไหม?",
-        "answer": "ได้ เลือกภาษาของนิทานในแอปเพื่อใช้ข้อความและเสียงบรรยายที่ตรงกับภาษานั้น เว็บไซต์มีปุ่ม English / ไทย ที่มองเห็นได้เสมอในทุกหน้าสาธารณะ และจำภาษาที่คุณเลือกเอง ตัวเลือกภาษาของแอปกับเว็บไซต์ถูกบันทึกแยกกัน"
+        "question": "สลับภาษาไทย อังกฤษ และจีนกลางได้ไหม?",
+        "answer": "ได้ แตะธงบนชั้นหนังสือหรือในหน้าที่อ่านเพื่อสลับข้อความและเสียงบรรยายระหว่างภาษาไทย อังกฤษ และจีนกลาง เว็บไซต์มีปุ่ม English / ไทย ที่มองเห็นได้เสมอในทุกหน้าสาธารณะ และจำภาษาที่คุณเลือกเอง ตัวเลือกภาษาของแอปกับเว็บไซต์ถูกบันทึกแยกกัน"
       },
       {
         "question": "นิทานเรื่องใดอ่านได้โดยไม่ต้องปลดล็อกคลัง?",
-        "answer": "หนูน้อยหมวกแดง เต่าและกระต่าย และหมูน้อยสามตัวเป็นสามเรื่องที่รวมไว้ให้แล้ว ซื้อคลังนิทานเพียงครั้งเดียวเพื่อปลดล็อกนิทานที่เสร็จสมบูรณ์อีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้าอุ่นมูนในอนาคต ไม่มีค่าสมาชิก แอปกำลังจะเปิดให้บริการ โดยจะแสดงราคาจริงและหน้าร้านเมื่อพร้อม"
+        "answer": "เต่าและกระต่าย หมูน้อยสามตัว และลูกเป็ดขี้เหร่เป็นสามเรื่องที่รวมไว้ให้แล้ว ซื้อคลังนิทานเพียงครั้งเดียวเพื่อปลดล็อกนิทานที่เสร็จสมบูรณ์อีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้าอุ่นมูนในอนาคต ไม่มีค่าสมาชิก แอปจะแสดงราคาก่อนยืนยันการซื้อ"
       },
       {
         "question": "กู้คืนการซื้อหรือลบตัวเลือกในอุปกรณ์อย่างไร?",

@@ -19,8 +19,8 @@
       "Privacy policy — Oonmoon"
     ],
     "descriptions": [
-      "Read, listen and explore ten classic stories with Oonmoon. Thai and English recorded narration, character choices and little moments of discovery. Available on the App Store.",
-      "Explore Oonmoon’s Thai and English narration, character selection, tap interactions and automatic page turning.",
+      "Read, listen and explore ten classic stories with Oonmoon. English, Thai and Mandarin recorded narration, character choices and little moments of discovery. Available on the App Store.",
+      "Explore Oonmoon’s English, Thai and Mandarin narration, character selection, tap interactions and automatic page turning.",
       "Meet Oonmoon’s ten classic stories. Three are included; a one-time full-library unlock covers the other seven and future completed books added to Oonmoon.",
       "Help with Oonmoon storytime, narration, language, library access and local choices. Contact pondd.me@gmail.com.",
       "Read Oonmoon’s privacy policy: local app choices, offline narration, Apple services, optional support emails and website hosting."
@@ -30,7 +30,7 @@
       "Little stories.",
       "Big wonder."
     ],
-    "intro": "Step into a paper-cut world of familiar tales. Read together, listen in Thai or English, and discover the little things along the way.",
+    "intro": "Step into a paper-cut world of familiar tales. Read together, listen in English, Thai or Mandarin, and discover the little things along the way.",
     "explore": "Meet the stories",
     "featuresLink": "Explore the features",
     "screenCaption": "A real Oonmoon story view • landscape simulator capture",
@@ -44,8 +44,12 @@
     "featureIntro": "A storybook made for reading, listening and exploring together.",
     "featureCards": [
       [
-        "Two languages, one adventure",
-        "Listen to recorded Thai or English narration and read along with the story text."
+        "Three languages, one adventure",
+        "Listen to recorded English, Thai or Mandarin narration and read along with the story text. One tap on the flag switches language."
+      ],
+      [
+        "A pop-up book in 3D",
+        "Turn on Pop-up and every page stands up like a real pop-up book, folding flat and springing open as you turn it."
       ],
       [
         "A character of their own",
@@ -53,19 +57,15 @@
       ],
       [
         "Little things to discover",
-        "Tap the illustrated scene to explore its interactions."
+        "Tap the characters and watch them jump, spin and dance."
       ],
       [
         "Let the story turn the page",
-        "Optional automatic page turning opens the next page after narration finishes successfully. You can also turn pages yourself."
-      ],
-      [
-        "Stories ready to listen to",
-        "Artwork, story text and recorded narration are bundled with the app."
+        "Press Play and the story reads to the end, turning each page after its narration finishes. You can also turn pages yourself."
       ],
       [
         "A shelf that can grow",
-        "The first three stories are included. A one-time full-library unlock covers the other seven and future completed books added to Oonmoon. No subscription."
+        "Three stories are included. A one-time full-library unlock covers the other seven and future completed books added to Oonmoon. No subscription."
       ]
     ],
     "duoHeading": "Designed with iPhone Duo in mind",
@@ -74,7 +74,7 @@
     "libraryIntro": "From a winding forest path to a very determined little hen, familiar characters are waiting on the shelf.",
     "included": "Included",
     "fullLibrary": "Full library",
-    "libraryNote": "Little Red Riding Hood, The Tortoise and the Hare, and The Three Little Pigs are included. A one-time full-library unlock covers the other seven and future completed books added to Oonmoon. No subscription. Oonmoon is available on the App Store.",
+    "libraryNote": "The Tortoise and the Hare, The Three Little Pigs and The Ugly Duckling are included. A one-time full-library unlock covers the other seven and future completed books added to Oonmoon. No subscription. Oonmoon is available on the App Store.",
     "storyTitles": [
       "Little Red Riding Hood",
       "The Tortoise and the Hare",
@@ -112,7 +112,32 @@
     "previewNotice": "Privacy policy updated 11 October 2026",
     "backHome": "Back to storytime",
     "privacySummary": "Privacy policy · Oonmoon 1.0",
-    "privacySummaryText": "Last updated 11 October 2026. No advertisements, embedded third-party analytics or user tracking. Reading choices stay on your device; Apple services, optional support emails and website hosting are explained below."
+    "privacySummaryText": "Last updated 11 October 2026. No advertisements, embedded third-party analytics or user tracking. Reading choices stay on your device; Apple services, optional support emails and website hosting are explained below.",
+    "videos": {
+      "heading": "Watch a story come to life.",
+      "intro": "Full read-throughs in the 3D pop-up view, on our YouTube channel. Narrated in Thai for now.",
+      "channel": "Visit the Oonmoon story channel on YouTube ↗",
+      "items": [
+        [
+          "video-tortoise-hare-th.jpg",
+          "The Tortoise and the Hare",
+          "Watch now · Thai narration",
+          "https://youtu.be/KBSWmVoIdcg"
+        ],
+        [
+          "video-three-pigs-th.jpg",
+          "The Three Little Pigs",
+          "Coming 29 November",
+          "https://www.youtube.com/@oonmoonstories"
+        ],
+        [
+          "video-ugly-duckling-th.jpg",
+          "The Ugly Duckling",
+          "Coming 6 December",
+          "https://www.youtube.com/@oonmoonstories"
+        ]
+      ]
+    }
   },
   "th": {
     "name": "Oonmoon",
@@ -134,9 +159,9 @@
       "นโยบายความเป็นส่วนตัว — Oonmoon"
     ],
     "descriptions": [
-      "อ่าน ฟัง และสำรวจนิทานคลาสสิก 10 เรื่องกับ Oonmoon พร้อมเสียงบรรยายภาษาไทยและภาษาอังกฤษที่บันทึกไว้ เลือกตัวละครและค้นพบสิ่งเล็ก ๆ ในภาพ พบกันดาวน์โหลดได้แล้วบน App Store",
-      "รู้จักฟีเจอร์ของ Oonmoon ทั้งเสียงบรรยายภาษาไทยและภาษาอังกฤษ การเลือกตัวละคร การแตะโต้ตอบกับภาพ และการเปลี่ยนหน้าอัตโนมัติ",
-      "พบกับนิทานคลาสสิก 10 เรื่องใน Oonmoon รวมสามเรื่องแรกไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่องและนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต",
+      "อ่าน ฟัง และสำรวจนิทานคลาสสิก 10 เรื่องกับ Oonmoon พร้อมเสียงบรรยายภาษาไทย อังกฤษ และจีนกลางที่บันทึกไว้ เลือกตัวละครและค้นพบสิ่งเล็ก ๆ ในภาพ พบกันดาวน์โหลดได้แล้วบน App Store",
+      "รู้จักฟีเจอร์ของ Oonmoon ทั้งเสียงบรรยายภาษาไทย อังกฤษ และจีนกลาง การเลือกตัวละคร การแตะโต้ตอบกับภาพ และการเปลี่ยนหน้าอัตโนมัติ",
+      "พบกับนิทานคลาสสิก 10 เรื่องใน Oonmoon รวมนิทานสามเรื่องไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่องและนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต",
       "ความช่วยเหลือเกี่ยวกับการอ่านนิทาน เสียงบรรยาย ภาษา สิทธิ์อ่าน และตัวเลือกที่บันทึกไว้ในอุปกรณ์ ติดต่อ pondd.me@gmail.com",
       "อ่านนโยบายความเป็นส่วนตัวของอุ่นมูนเกี่ยวกับตัวเลือกในอุปกรณ์ เสียงบรรยายออฟไลน์ บริการของ Apple อีเมลขอความช่วยเหลือที่เลือกส่ง และการโฮสต์เว็บไซต์"
     ],
@@ -145,7 +170,7 @@
       "นิทานเล็ก ๆ",
       "มหัศจรรย์ยิ่งใหญ่"
     ],
-    "intro": "ก้าวเข้าสู่โลกนิทานจากกระดาษซ้อนชั้น อ่านด้วยกัน ฟังเสียงบรรยายภาษาไทยหรือภาษาอังกฤษ แล้วค้นพบสิ่งเล็ก ๆ ระหว่างทาง",
+    "intro": "ก้าวเข้าสู่โลกนิทานจากกระดาษซ้อนชั้น อ่านด้วยกัน ฟังเสียงบรรยายภาษาไทย อังกฤษ หรือจีนกลาง แล้วค้นพบสิ่งเล็ก ๆ ระหว่างทาง",
     "explore": "พบกับนิทาน",
     "featuresLink": "สำรวจฟีเจอร์",
     "screenCaption": "ภาพจริงจากหน้าที่อ่านนิทานใน Oonmoon • ภาพแนวนอนจาก Simulator",
@@ -159,8 +184,12 @@
     "featureIntro": "หนังสือนิทานสำหรับอ่าน ฟัง และสำรวจไปด้วยกัน",
     "featureCards": [
       [
-        "สองภาษา หนึ่งการผจญภัย",
-        "ฟังเสียงบรรยายภาษาไทยหรือภาษาอังกฤษที่บันทึกไว้ และอ่านตามข้อความในนิทาน"
+        "สามภาษา หนึ่งการผจญภัย",
+        "ฟังเสียงบรรยายภาษาไทย อังกฤษ หรือจีนกลางที่บันทึกไว้ และอ่านตามข้อความในนิทาน แตะธงครั้งเดียวเพื่อเปลี่ยนภาษา"
+      ],
+      [
+        "หนังสือป๊อปอัปสามมิติ",
+        "เปิดโหมดป๊อปอัป แล้วทุกหน้าจะตั้งขึ้นเหมือนหนังสือป๊อปอัปจริง พับราบและกางขึ้นใหม่เมื่อพลิกหน้า"
       ],
       [
         "เลือกตัวละครในแบบของตัวเอง",
@@ -168,19 +197,15 @@
       ],
       [
         "สิ่งเล็ก ๆ ที่รอให้ค้นพบ",
-        "แตะภาพในฉากเพื่อโต้ตอบกับตัวละครและสิ่งของ"
+        "แตะตัวละครแล้วดูมันกระโดด หมุน และเต้น"
       ],
       [
         "ให้นิทานพาไปยังหน้าถัดไป",
-        "เลือกเปิดการเปลี่ยนหน้าอัตโนมัติ เพื่อให้หน้าถัดไปเปิดเมื่อเสียงบรรยายเล่นจบสำเร็จ หรือจะเปลี่ยนหน้าเองก็ได้"
-      ],
-      [
-        "นิทานพร้อมให้ฟัง",
-        "ภาพ ข้อความนิทาน และไฟล์เสียงบรรยายมาพร้อมกับแอป"
+        "กดปุ่มเล่น แล้วนิทานจะอ่านไปจนจบ โดยพลิกหน้าให้เมื่อเสียงบรรยายของแต่ละหน้าเล่นจบ หรือจะพลิกหน้าเองก็ได้"
       ],
       [
         "ชั้นหนังสือที่เติบโตได้",
-        "รวมสามเรื่องแรกไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต ไม่มีค่าสมาชิก"
+        "รวมนิทานสามเรื่องไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต ไม่มีค่าสมาชิก"
       ]
     ],
     "duoHeading": "ออกแบบโดยคำนึงถึง iPhone Duo",
@@ -189,7 +214,7 @@
     "libraryIntro": "ตั้งแต่ทางเดินคดเคี้ยวในป่าไปจนถึงแม่ไก่ผู้มุ่งมั่น เหล่าตัวละครที่คุ้นเคยรออยู่บนชั้นหนังสือ",
     "included": "รวมไว้ให้แล้ว",
     "fullLibrary": "คลังนิทานทั้งหมด",
-    "libraryNote": "รวมหนูน้อยหมวกแดง เต่าและกระต่าย และหมูน้อยสามตัวไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต ไม่มีค่าสมาชิก Oonmoon กำลังจะเปิดให้บริการ",
+    "libraryNote": "รวมเต่าและกระต่าย หมูน้อยสามตัว และลูกเป็ดขี้เหร่ไว้ให้แล้ว ซื้อคลังนิทานครั้งเดียวเพื่อปลดล็อกอีกเจ็ดเรื่อง รวมถึงนิทานใหม่ที่เสร็จสมบูรณ์และเพิ่มเข้า Oonmoon ในอนาคต ไม่มีค่าสมาชิก ดาวน์โหลด Oonmoon ได้แล้วบน App Store",
     "storyTitles": [
       "หนูน้อยหมวกแดง",
       "เต่าและกระต่าย",
@@ -227,6 +252,31 @@
     "previewNotice": "ปรับปรุงนโยบายความเป็นส่วนตัว 11 ตุลาคม 2026",
     "backHome": "กลับไปช่วงเวลาเล่านิทาน",
     "privacySummary": "นโยบายความเป็นส่วนตัว · อุ่นมูน 1.0",
-    "privacySummaryText": "ปรับปรุงล่าสุด 11 ตุลาคม 2026 ไม่มีโฆษณา ระบบวิเคราะห์จากผู้ให้บริการภายนอกที่ฝังในแอป หรือการติดตามผู้ใช้ ตัวเลือกการอ่านเก็บไว้ในอุปกรณ์ ส่วนบริการของ Apple อีเมลขอความช่วยเหลือที่เลือกส่ง และการโฮสต์เว็บไซต์อธิบายไว้ด้านล่าง"
+    "privacySummaryText": "ปรับปรุงล่าสุด 11 ตุลาคม 2026 ไม่มีโฆษณา ระบบวิเคราะห์จากผู้ให้บริการภายนอกที่ฝังในแอป หรือการติดตามผู้ใช้ ตัวเลือกการอ่านเก็บไว้ในอุปกรณ์ ส่วนบริการของ Apple อีเมลขอความช่วยเหลือที่เลือกส่ง และการโฮสต์เว็บไซต์อธิบายไว้ด้านล่าง",
+    "videos": {
+      "heading": "ดูนิทานแบบป๊อปอัป",
+      "intro": "ชมนิทานเต็มเรื่องในมุมมองหนังสือป๊อปอัปสามมิติ พร้อมเสียงบรรยายภาษาไทย บนช่อง YouTube ของเรา",
+      "channel": "ไปที่ช่อง อุ่นมูน นิทานก่อนนอน บน YouTube ↗",
+      "items": [
+        [
+          "video-tortoise-hare-th.jpg",
+          "กระต่ายกับเต่า",
+          "ดูได้แล้ว",
+          "https://youtu.be/KBSWmVoIdcg"
+        ],
+        [
+          "video-three-pigs-th.jpg",
+          "ลูกหมูสามตัว",
+          "พบกัน 29 พฤศจิกายน",
+          "https://www.youtube.com/@oonmoonstories"
+        ],
+        [
+          "video-ugly-duckling-th.jpg",
+          "ลูกเป็ดขี้เหร่",
+          "พบกัน 6 ธันวาคม",
+          "https://www.youtube.com/@oonmoonstories"
+        ]
+      ]
+    }
   }
 }

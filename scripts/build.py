@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Render complete bilingual HTML. No packages, app checkout or network needed."""
+"""Render complete bilingual HTML. No packages, app checkout or network needed.
+
+WARNING: the published pages carry hand edits made after this last ran (collection
+links, an Easter egg, the 1.1 video section). Running it overwrites them; for
+content changes use an in-place patch like scripts/update_1_1.py instead.
+"""
 import argparse, json, html, posixpath, urllib.parse
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
@@ -7,6 +12,7 @@ from xml.sax.saxutils import escape as xml_escape
 ROOT=Path(__file__).resolve().parents[1]
 PAGES=['','features','stories','support','privacy']
 BOOKS=['red','golden','pigs','duckling','goldilocks','lionMouse','redHen','billyGoats','elves','gingerbread']
+FREE={'golden','pigs','duckling'}  # included without the full-library purchase since 1.1
 COMPANIONS=['red-primary','golden-primary','golden-hare','pigs-primary','duckling-primary','goldilocks-primary','lionMouse-primary','lionMouse-mouse','redHen-primary','billyGoats-primary','elves-primary','elves-shoemaker','gingerbread-primary']
 def e(value): return html.escape(str(value),quote=True)
 def rel(source,target):
@@ -72,7 +78,7 @@ def render(config):
                 if page=='features':
                     body+=f'<section class="paper"><div class="wrap">{cards(lang,level=2)}<div class="split" style="margin-top:60px">{screen(source,"dressing-girl-en",d["dressingAlt"])}{screen(source,"reader-"+lang,d["readerAlt"])}</div></div></section>'+duo(lang)
                 elif page=='stories':
-                    stories=''.join(f'''<article class="story-card"><img class="story-art" src="{rel(source,'assets/'+b+'-primary.png')}" {imgdim(b+'-primary.png')} alt="{e(d['campAlt']+' '+d['storyTitles'][j])}" loading="lazy" decoding="async"><span class="access {'full' if j>2 else ''}">{d['included'] if j<3 else d['fullLibrary']}</span><h2>{e(d['storyTitles'][j])}</h2><p>{e(d['storyNotes'][j])}</p></article>''' for j,b in enumerate(BOOKS))
+                    stories=''.join(f'''<article class="story-card"><img class="story-art" src="{rel(source,'assets/'+b+'-primary.png')}" {imgdim(b+'-primary.png')} alt="{e(d['campAlt']+' '+d['storyTitles'][j])}" loading="lazy" decoding="async"><span class="access {'' if b in FREE else 'full'}">{d['included'] if b in FREE else d['fullLibrary']}</span><h2>{e(d['storyTitles'][j])}</h2><p>{e(d['storyNotes'][j])}</p></article>''' for j,b in enumerate(BOOKS))
                     body+=f'<section class="paper"><div class="wrap"><div class="story-grid">{stories}</div><p class="library-note">{d["libraryNote"]}</p></div></section>'
                 elif page=='support':
                     faq=''.join(f'<details><summary>{e(row["question"])}</summary><p>{e(row["answer"])}</p></details>' for row in details[lang]['support'])
@@ -86,8 +92,8 @@ def render(config):
             directory=ROOT/source;directory.mkdir(parents=True,exist_ok=True)
             (directory/'index.html').write_text(head(lang,page,source,d['titles'][i],d['descriptions'][i])+header(lang,page,source)+prefix+body+'</main>'+footer(lang,source)+'</body></html>',encoding='utf-8')
     d=content['en'];source=''
-    gateway=f'''<main id="main"><section class="scene gateway-scene masthead"><div class="wrap hero-grid row gx-5 align-items-center"><div class="hero-copy"><p class="eyebrow">Read together · <span lang="th">อ่านด้วยกัน</span></p><span class="status">Available now · <span lang="th">ดาวน์โหลดได้แล้ว</span></span><h1>Little stories.<br>Big wonder.</h1><p class="intro">Ten familiar tales, Thai and English narration, and a little world to explore together.</p><p class="gateway-intro-th" lang="th">นิทานคุ้นเคยสิบเรื่อง พร้อมเสียงบรรยายภาษาไทยและอังกฤษ และโลกเล็ก ๆ ให้สำรวจด้วยกัน</p><div class="gateway-card" data-language-gateway><h2>Choose your language · <span lang="th">เลือกภาษา</span></h2><div class="gateway-languages"><a href="en/" lang="en" hreflang="en" data-language="en" class="is-preferred">English</a><a href="th/" lang="th" hreflang="th" data-language="th">ไทย</a></div><a class="button" href="en/" data-continue>Continue in English →</a><p class="note" data-preference-note>English is the fallback. You can change language on every page.</p></div></div><div class="hero-screen">{screen(source,'reader-en',d['readerAlt'],d['screenCaption'],True)}</div></div>{panorama('en',source)}{camp('en',source)}</section></main>'''
-    (ROOT/'index.html').write_text(head('en','','','Oonmoon — Thai & English storytime','Choose English or Thai and discover Oonmoon’s ten classic stories, recorded narration and character choices. Available on the App Store.',True)+header('en','','',True)+gateway+footer('en','')+'</body></html>')
+    gateway=f'''<main id="main"><section class="scene gateway-scene masthead"><div class="wrap hero-grid row gx-5 align-items-center"><div class="hero-copy"><p class="eyebrow">Read together · <span lang="th">อ่านด้วยกัน</span></p><span class="status">Available now · <span lang="th">ดาวน์โหลดได้แล้ว</span></span><h1>Little stories.<br>Big wonder.</h1><p class="intro">Ten familiar tales, English, Thai and Mandarin narration, and a little world to explore together.</p><p class="gateway-intro-th" lang="th">นิทานคุ้นเคยสิบเรื่อง พร้อมเสียงบรรยายภาษาไทย อังกฤษ และจีนกลาง และโลกเล็ก ๆ ให้สำรวจด้วยกัน</p><div class="gateway-card" data-language-gateway><h2>Choose your language · <span lang="th">เลือกภาษา</span></h2><div class="gateway-languages"><a href="en/" lang="en" hreflang="en" data-language="en" class="is-preferred">English</a><a href="th/" lang="th" hreflang="th" data-language="th">ไทย</a></div><a class="button" href="en/" data-continue>Continue in English →</a><p class="note" data-preference-note>English is the fallback. You can change language on every page.</p></div></div><div class="hero-screen">{screen(source,'reader-en',d['readerAlt'],d['screenCaption'],True)}</div></div>{panorama('en',source)}{camp('en',source)}</section></main>'''
+    (ROOT/'index.html').write_text(head('en','','','Oonmoon — Thai & English storytime','Choose English or Thai and discover Oonmoon’s ten classic stories, narration in three languages, a 3D pop-up book view and character choices. Available on the App Store.',True)+header('en','','',True)+gateway+footer('en','')+'</body></html>')
     urls=['']+[l+'/'+(p+'/' if p else '') for l in ['en','th'] for p in PAGES]
     sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'<url><loc>{xml_escape(absolute(u))}</loc></url>\n' for u in urls)+'</urlset>\n'
     (ROOT/'sitemap.xml').write_text(sitemap)
