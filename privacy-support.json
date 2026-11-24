@@ -3,11 +3,11 @@
     "privacy": [
       {
         "heading": "About this privacy policy",
-        "text": "This policy describes Oonmoon 1.0 and this website. Oonmoon is published by an individual developer, who personally handles app support and privacy enquiries at pondd.me@gmail.com. The app does not collect or transmit personal information or usage data to a developer-operated server. Optional support emails and services provided by Apple and GitHub are described separately below."
+        "text": "This policy describes Oonmoon for iOS and Android and this website. Oonmoon is published by an individual developer, who personally handles app support and privacy enquiries at pondd.me@gmail.com. The app does not collect or transmit personal information or usage data to a developer-operated server. Optional support emails and services provided by Apple, Google and GitHub are described separately below."
       },
       {
         "heading": "Preferences saved on your device",
-        "text": "Oonmoon stores character appearance and selection, reading language, sound choices, bookmarks and story-completion preferences locally. Existing character names from earlier setup may also remain in local preferences. The current app implementation does not send these preferences to a developer-operated server. Device backups are a separate matter."
+        "text": "Oonmoon stores character appearance and selection, reading language, sound choices, bookmarks and story-completion preferences locally. On iOS, existing character names from earlier setup may also remain in local preferences. The current app implementation does not send these preferences to a developer-operated server. Device backups are a separate matter."
       },
       {
         "heading": "Accounts, advertising, analytics and permissions",
@@ -19,15 +19,19 @@
       },
       {
         "heading": "Narration prepared in advance",
-        "text": "English and Thai narration recordings are prepared in advance, bundled with the app and played locally, including offline playback for stories you can access. The app does not call an online text-to-speech service or create new narration during use. Reading does not upload text, names, voice recordings or other user information to a narration provider. Purchases and restoring access may still need a connection to Apple."
+        "text": "Thai, English and Mandarin narration is recorded in advance and bundled with the app. Stories you can access play offline. The app never sends text, names or voice recordings to a narration service. Purchases and restoring access can require a connection to the relevant app store."
       },
       {
         "heading": "Purchases handled by Apple",
         "text": "The one-time full-library purchase uses Apple's StoreKit. Apple handles the Apple Account and payment flow; Oonmoon uses verified purchase information to decide which stories can be opened. Product details, purchases, restores and ownership updates can communicate with Apple. Restore Purchases may ask for Apple Account authentication. Apple's own privacy terms apply to its services."
       },
       {
+        "heading": "Google Play purchases on Android",
+        "text": "A grown-up can make a one-time purchase for seven additional stories. Google Play handles the Google account and payment details. Oonmoon receives a signed purchase record, including the product ID, purchase token and purchase status. It verifies the record on the device, saves a copy in private app storage for offline reading, and sends the token to Google Play to acknowledge the purchase. The Google Play Billing library can transmit technical information about billing operations, including errors, app and device configuration, to Google for diagnostics. Google handles its platform records under its privacy policy. The developer does not receive card details or send receipts to a separate server. A library access code is checked on the device. Only its local activation record is saved."
+      },
+      {
         "heading": "Deleting local choices",
-        "text": "In the grown-ups area, Delete character & local choices removes the app's saved character preferences, language and sound choices, and bookmarks on that device. It does not erase Apple purchase records, device backups or support emails. Backup behavior depends on your device and Apple settings; no promise is made here about deleting information from backups."
+        "text": "On iOS, in the grown-ups area, Delete character & local choices removes the app's saved character preferences, language and sound choices, and bookmarks on that device. It does not erase Apple purchase records, device backups or support emails. Backup behavior depends on your device and Apple settings; no promise is made here about deleting information from backups. On Android, open Settings, choose Apps, Oonmoon, then Storage and Clear storage. This clears reading choices, bookmarks and the local copy of library access. Google Play retains its purchase records. A grown-up can restore a Play purchase with the original Google account."
       },
       {
         "heading": "When a grown-up emails support",
@@ -69,11 +73,11 @@
     "privacy": [
       {
         "heading": "เกี่ยวกับนโยบายความเป็นส่วนตัวนี้",
-        "text": "นโยบายนี้อธิบายแอปอุ่นมูนรุ่น 1.0 และเว็บไซต์นี้ ผู้เผยแพร่อุ่นมูนเป็นบุคคลและจัดการเรื่องความช่วยเหลือกับคำถามด้านความเป็นส่วนตัวด้วยตนเอง ติดต่อได้ที่ pondd.me@gmail.com แอปไม่เก็บรวบรวมหรือส่งข้อมูลส่วนบุคคลหรือข้อมูลการใช้งานไปยังเซิร์ฟเวอร์ของผู้พัฒนา อีเมลขอความช่วยเหลือที่ผู้ใช้เลือกส่ง และบริการของ Apple กับ GitHub อธิบายแยกไว้ด้านล่าง"
+        "text": "นโยบายนี้อธิบายแอปอุ่นมูนสำหรับ iOS และ Android และเว็บไซต์นี้ ผู้เผยแพร่อุ่นมูนเป็นบุคคลและจัดการเรื่องความช่วยเหลือกับคำถามด้านความเป็นส่วนตัวด้วยตนเอง ติดต่อได้ที่ pondd.me@gmail.com แอปไม่เก็บรวบรวมหรือส่งข้อมูลส่วนบุคคลหรือข้อมูลการใช้งานไปยังเซิร์ฟเวอร์ของผู้พัฒนา อีเมลขอความช่วยเหลือที่ผู้ใช้เลือกส่ง และบริการของ Apple, Google และ GitHub อธิบายแยกไว้ด้านล่าง"
       },
       {
         "heading": "ตัวเลือกที่บันทึกไว้ในอุปกรณ์",
-        "text": "อุ่นมูนบันทึกรูปลักษณ์และตัวเลือกของตัวละคร ภาษาของนิทาน การตั้งค่าเสียง หน้าที่อ่านค้างไว้ และสถานะการอ่านจบไว้ในอุปกรณ์ ชื่อตัวละครที่เคยตั้งไว้ในรุ่นก่อนอาจยังอยู่ในข้อมูลตัวเลือกด้วย การทำงานของแอปปัจจุบันไม่ได้ส่งข้อมูลเหล่านี้ไปยังเซิร์ฟเวอร์ที่ผู้พัฒนาเป็นผู้ดำเนินการ ส่วนการสำรองข้อมูลของอุปกรณ์เป็นอีกเรื่องหนึ่ง"
+        "text": "อุ่นมูนบันทึกรูปลักษณ์และตัวเลือกของตัวละคร ภาษาของนิทาน การตั้งค่าเสียง หน้าที่อ่านค้างไว้ และสถานะการอ่านจบไว้ในอุปกรณ์ ชื่อตัวละครที่เคยตั้งไว้ในรุ่นก่อนอาจยังอยู่ในข้อมูลตัวเลือกด้วย การทำงานของแอปปัจจุบันไม่ได้ส่งข้อมูลเหล่านี้ไปยังเซิร์ฟเวอร์ที่ผู้พัฒนาเป็นผู้ดำเนินการ ส่วนการสำรองข้อมูลของอุปกรณ์เป็นอีกเรื่องหนึ่ง บน Android ผู้ใช้อ่านได้โดยไม่ต้องระบุชื่อเด็ก"
       },
       {
         "heading": "บัญชีผู้ใช้ โฆษณา การวิเคราะห์ และสิทธิ์เข้าถึง",
@@ -85,15 +89,19 @@
       },
       {
         "heading": "เสียงบรรยายที่จัดเตรียมไว้ล่วงหน้า",
-        "text": "ไฟล์เสียงบรรยายภาษาไทยและภาษาอังกฤษจัดเตรียมไว้ล่วงหน้า มาพร้อมกับแอป และเล่นในอุปกรณ์ รวมถึงเล่นแบบออฟไลน์สำหรับนิทานที่คุณมีสิทธิ์อ่าน แอปไม่เรียกบริการสร้างเสียงออนไลน์หรือสร้างเสียงบรรยายใหม่ระหว่างใช้งาน การอ่านนิทานไม่อัปโหลดข้อความ ชื่อ เสียงที่บันทึก หรือข้อมูลผู้ใช้อื่น ๆ ไปยังผู้ให้บริการเสียงบรรยาย การซื้อและการกู้คืนสิทธิ์อ่านอาจยังต้องเชื่อมต่อกับ Apple"
+        "text": "เสียงบรรยายภาษาไทย อังกฤษ และจีนกลางบันทึกไว้ล่วงหน้าและมาพร้อมกับแอป นิทานที่คุณมีสิทธิ์อ่านเล่นได้แบบออฟไลน์ แอปไม่ส่งข้อความ ชื่อ หรือเสียงของผู้ใช้ไปยังบริการสร้างเสียงบรรยาย การซื้อและกู้คืนสิทธิ์อ่านอาจต้องเชื่อมต่อกับร้านค้าแอปที่ใช้"
       },
       {
         "heading": "การซื้อดำเนินการผ่าน Apple",
         "text": "การซื้อคลังนิทานครั้งเดียวใช้ StoreKit ของ Apple โดย Apple ดูแลบัญชี Apple และขั้นตอนการชำระเงิน อุ่นมูนใช้ข้อมูลการซื้อที่ผ่านการตรวจสอบเพื่อตัดสินว่านิทานเรื่องใดเปิดอ่านได้ การโหลดรายละเอียดสินค้า การซื้อ การกู้คืน และการอัปเดตสิทธิ์อาจมีการติดต่อกับ Apple การกู้คืนการซื้ออาจขอให้ยืนยันบัญชี Apple บริการของ Apple อยู่ภายใต้ข้อกำหนดความเป็นส่วนตัวของ Apple เอง"
       },
       {
+        "heading": "การซื้อผ่าน Google Play บน Android",
+        "text": "ผู้ปกครองสามารถซื้อครั้งเดียวเพื่อเปิดนิทานเพิ่มอีกเจ็ดเรื่อง Google Play จัดการบัญชี Google และข้อมูลการชำระเงิน อุ่นมูนได้รับบันทึกการซื้อที่มีลายเซ็น ซึ่งระบุรหัสสินค้า โทเค็นการซื้อ และสถานะการซื้อ แอปตรวจสอบบันทึกนี้ในเครื่อง เก็บสำเนาไว้ในพื้นที่ส่วนตัวของแอปเพื่ออ่านแบบออฟไลน์ และส่งโทเค็นกลับไปยัง Google Play เพื่อยืนยันการรับซื้อ ไลบรารี Google Play Billing อาจส่งข้อมูลทางเทคนิคเกี่ยวกับการเรียกเก็บเงิน เช่น ข้อผิดพลาด ข้อมูลการตั้งค่าแอปและอุปกรณ์ ไปยัง Google เพื่อวิเคราะห์ปัญหา Google ดูแลข้อมูลตามนโยบายความเป็นส่วนตัวของตน ผู้พัฒนาไม่ได้รับรายละเอียดบัตรและไม่ส่งใบเสร็จไปยังเซิร์ฟเวอร์แยกต่างหาก หากใช้รหัสเปิดคลังนิทาน แอปจะตรวจรหัสในเครื่องและบันทึกเฉพาะสถานะการเปิดสิทธิ์ไว้ในเครื่อง"
+      },
+      {
         "heading": "การลบตัวเลือกในอุปกรณ์",
-        "text": "ในเมนูสำหรับผู้ใหญ่ เลือก ลบตัวละครและตัวเลือกในอุปกรณ์ เพื่อลบตัวเลือกของตัวละคร ภาษา การตั้งค่าเสียง และหน้าที่อ่านค้างไว้ในอุปกรณ์นั้น การลบนี้ไม่ลบประวัติการซื้อของ Apple ข้อมูลสำรองของอุปกรณ์ หรืออีเมลที่ส่งถึงฝ่ายช่วยเหลือ การสำรองข้อมูลขึ้นอยู่กับอุปกรณ์และการตั้งค่าของ Apple จึงไม่มีคำรับรองในหน้านี้ว่าจะลบข้อมูลออกจากข้อมูลสำรองด้วย"
+        "text": "สำหรับ iOS ในเมนูสำหรับผู้ใหญ่ เลือก ลบตัวละครและตัวเลือกในอุปกรณ์ เพื่อลบตัวเลือกของตัวละคร ภาษา การตั้งค่าเสียง และหน้าที่อ่านค้างไว้ในอุปกรณ์นั้น การลบนี้ไม่ลบประวัติการซื้อของ Apple ข้อมูลสำรองของอุปกรณ์ หรืออีเมลที่ส่งถึงฝ่ายช่วยเหลือ การสำรองข้อมูลขึ้นอยู่กับอุปกรณ์และการตั้งค่าของ Apple จึงไม่มีคำรับรองในหน้านี้ว่าจะลบข้อมูลออกจากข้อมูลสำรองด้วย สำหรับ Android ให้เปิดการตั้งค่าของเครื่อง เลือกแอป อุ่นมูน พื้นที่เก็บข้อมูล แล้วเลือกล้างข้อมูล ตัวเลือกการอ่าน หน้าที่คั่นไว้ และสิทธิ์อ่านที่บันทึกในเครื่องจะถูกล้าง Google Play ยังคงเก็บประวัติการซื้อไว้ ผู้ปกครองสามารถกู้คืนการซื้อผ่านบัญชี Google ที่ใช้ซื้อได้"
       },
       {
         "heading": "เมื่อผู้ใหญ่ส่งอีเมลขอความช่วยเหลือ",
